@@ -1,0 +1,403 @@
+/**
+ * FraudTrace AI - Production-Quality Accessibility System CSS
+ * Supports: Visual Themes, Contrast Modes, Dyslexia Fonts, Focus Aids, Reading Ruler, Sizing
+ */
+
+/* ==========================================================================
+   1. Root Default Accessibility Variables
+   ========================================================================== */
+:root {
+  --font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+  --letter-spacing-base: 0px;
+  --reading-width: 720px;
+
+  /* Theme Defaults (Slate Dark / Cyber Forensic) */
+  --bg-app: #080d1a;
+  --surface-app: #0d1527;
+  --card-app: #111c35;
+  --card-hover-app: #162343;
+  --border-app: rgba(255, 255, 255, 0.1);
+  --border-app-strong: rgba(6, 182, 212, 0.4);
+  --text-app: #f1f5f9;
+  --text-muted-app: #94a3b8;
+  --accent-app: #06b6d4;
+  --accent-text: #000000;
+  --focus-ring: #06b6d4;
+  --sentence-dim: rgba(255, 255, 255, 0.35);
+  --sentence-highlight: rgba(6, 182, 212, 0.15);
+  --sentence-ring: rgba(6, 182, 212, 0.4);
+  --ruler-mask: rgba(0, 0, 0, 0.65);
+  --ruler-guide: rgba(6, 182, 212, 0.18);
+  --ruler-border: rgba(6, 182, 212, 0.8);
+}
+
+/* ==========================================================================
+   2. Theme Variations
+   ========================================================================== */
+
+/* Theme 1: Warm Cream (Gentle Paper / Low Eye Strain) */
+[data-theme="warm-cream"] {
+  --bg-app: #fbf0d9;
+  --surface-app: #f4e5c3;
+  --card-app: #ede0bf;
+  --card-hover-app: #e2d2aa;
+  --border-app: rgba(60, 45, 25, 0.18);
+  --border-app-strong: rgba(163, 93, 30, 0.6);
+  --text-app: #282118;
+  --text-muted-app: #675846;
+  --accent-app: #a35d1e;
+  --accent-text: #ffffff;
+  --focus-ring: #a35d1e;
+  --sentence-dim: rgba(40, 33, 24, 0.35);
+  --sentence-highlight: rgba(163, 93, 30, 0.15);
+  --sentence-ring: rgba(163, 93, 30, 0.5);
+  --ruler-mask: rgba(60, 45, 25, 0.45);
+  --ruler-guide: rgba(163, 93, 30, 0.18);
+  --ruler-border: #a35d1e;
+}
+
+/* Theme 2: Calm Slate (Cool Neutral / Reduced Glare) */
+[data-theme="calm-slate"] {
+  --bg-app: #e2e8f0;
+  --surface-app: #cbd5e1;
+  --card-app: #f8fafc;
+  --card-hover-app: #f1f5f9;
+  --border-app: rgba(15, 23, 42, 0.2);
+  --border-app-strong: rgba(2, 132, 199, 0.6);
+  --text-app: #0f172a;
+  --text-muted-app: #475569;
+  --accent-app: #0284c7;
+  --accent-text: #ffffff;
+  --focus-ring: #0284c7;
+  --sentence-dim: rgba(15, 23, 42, 0.35);
+  --sentence-highlight: rgba(2, 132, 199, 0.15);
+  --sentence-ring: rgba(2, 132, 199, 0.4);
+  --ruler-mask: rgba(15, 23, 42, 0.45);
+  --ruler-guide: rgba(2, 132, 199, 0.18);
+  --ruler-border: #0284c7;
+}
+
+/* Theme 3: Soft Lavender (Cognitive Ease / Sensory Soothing) */
+[data-theme="soft-lavender"] {
+  --bg-app: #f3f0f7;
+  --surface-app: #e8e2f0;
+  --card-app: #fcfbfe;
+  --card-hover-app: #f4eff9;
+  --border-app: rgba(68, 40, 105, 0.16);
+  --border-app-strong: rgba(124, 58, 237, 0.6);
+  --text-app: #241838;
+  --text-muted-app: #604e76;
+  --accent-app: #7c3aed;
+  --accent-text: #ffffff;
+  --focus-ring: #7c3aed;
+  --sentence-dim: rgba(36, 24, 56, 0.35);
+  --sentence-highlight: rgba(124, 58, 237, 0.15);
+  --sentence-ring: rgba(124, 58, 237, 0.4);
+  --ruler-mask: rgba(36, 24, 56, 0.45);
+  --ruler-guide: rgba(124, 58, 237, 0.18);
+  --ruler-border: #7c3aed;
+}
+
+/* Theme 4: Slate Dark (Default FraudTrace Cyber Mode) */
+[data-theme="slate-dark"] {
+  --bg-app: #080d1a;
+  --surface-app: #0d1527;
+  --card-app: #111c35;
+  --card-hover-app: #162343;
+  --border-app: rgba(255, 255, 255, 0.1);
+  --border-app-strong: rgba(6, 182, 212, 0.5);
+  --text-app: #f1f5f9;
+  --text-muted-app: #94a3b8;
+  --accent-app: #06b6d4;
+  --accent-text: #000000;
+  --focus-ring: #06b6d4;
+  --sentence-dim: rgba(255, 255, 255, 0.35);
+  --sentence-highlight: rgba(6, 182, 212, 0.15);
+  --sentence-ring: rgba(6, 182, 212, 0.4);
+  --ruler-mask: rgba(0, 0, 0, 0.65);
+  --ruler-guide: rgba(6, 182, 212, 0.18);
+  --ruler-border: rgba(6, 182, 212, 0.8);
+}
+
+/* Theme 5: High-Contrast OLED (True Black / Maximum Luminance Separation) */
+[data-theme="oled-dark"] {
+  --bg-app: #000000;
+  --surface-app: #0a0a0a;
+  --card-app: #111111;
+  --card-hover-app: #1c1c1c;
+  --border-app: #ffffff;
+  --border-app-strong: #00ffff;
+  --text-app: #ffffff;
+  --text-muted-app: #d4d4d4;
+  --accent-app: #00ffff;
+  --accent-text: #000000;
+  --focus-ring: #ffff00;
+  --sentence-dim: rgba(255, 255, 255, 0.25);
+  --sentence-highlight: rgba(0, 255, 255, 0.25);
+  --sentence-ring: #00ffff;
+  --ruler-mask: rgba(0, 0, 0, 0.85);
+  --ruler-guide: rgba(0, 255, 255, 0.25);
+  --ruler-border: #00ffff;
+}
+
+/* Theme 6: High-Contrast Light (Pure White / Crisp Stark Black) */
+[data-theme="contrast-light"] {
+  --bg-app: #ffffff;
+  --surface-app: #f8fafc;
+  --card-app: #ffffff;
+  --card-hover-app: #f1f5f9;
+  --border-app: #000000;
+  --border-app-strong: #000000;
+  --text-app: #000000;
+  --text-muted-app: #1e293b;
+  --accent-app: #0033cc;
+  --accent-text: #ffffff;
+  --focus-ring: #0033cc;
+  --sentence-dim: rgba(0, 0, 0, 0.3);
+  --sentence-highlight: rgba(0, 51, 204, 0.15);
+  --sentence-ring: #0033cc;
+  --ruler-mask: rgba(0, 0, 0, 0.35);
+  --ruler-guide: rgba(0, 51, 204, 0.15);
+  --ruler-border: #0033cc;
+}
+
+/* ==========================================================================
+   3. Global Typography & Core Overrides
+   ========================================================================== */
+body {
+  font-family: var(--font-family-base) !important;
+  font-size: var(--font-size-base) !important;
+  line-height: var(--line-height-base) !important;
+  letter-spacing: var(--letter-spacing-base) !important;
+  background-color: var(--bg-app) !important;
+  color: var(--text-app) !important;
+}
+
+/* Dyslexia font fallback safety */
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: local('OpenDyslexic'), local('OpenDyslexic-Regular');
+  font-display: swap;
+}
+
+/* Reading content container max-width */
+.reading-content {
+  max-width: var(--reading-width) !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ==========================================================================
+   4. Component Structural Theme Injections
+   ========================================================================== */
+/* Apply theme styles cleanly across cards, surfaces, text */
+[data-theme] .bg-dark-bg,
+[data-theme] .bg-dark-bg\/80,
+[data-theme] .bg-dark-bg\/60 {
+  background-color: var(--bg-app) !important;
+}
+
+[data-theme] .bg-dark-surface,
+[data-theme] .bg-dark-surface\/90,
+[data-theme] .bg-dark-surface\/80,
+[data-theme] .bg-dark-surface\/60,
+[data-theme] .bg-dark-surface\/50,
+[data-theme] .bg-dark-surface\/40 {
+  background-color: var(--surface-app) !important;
+}
+
+[data-theme] .bg-dark-card,
+[data-theme] .bg-dark-card\/95,
+[data-theme] .bg-dark-card\/90,
+[data-theme] .bg-dark-card\/80,
+[data-theme] .bg-dark-card\/60,
+[data-theme] .bg-dark-card\/40 {
+  background-color: var(--card-app) !important;
+}
+
+[data-theme] .hover\:bg-dark-cardHover:hover {
+  background-color: var(--card-hover-app) !important;
+}
+
+/* Text color adaptation */
+[data-theme]:not([data-theme="slate-dark"]) .text-white,
+[data-theme]:not([data-theme="slate-dark"]) .text-slate-100,
+[data-theme]:not([data-theme="slate-dark"]) .text-slate-200,
+[data-theme]:not([data-theme="slate-dark"]) .text-slate-300,
+[data-theme="contrast-light"] .text-white,
+[data-theme="contrast-light"] .text-slate-200,
+[data-theme="contrast-light"] .text-slate-300 {
+  color: var(--text-app) !important;
+}
+
+[data-theme]:not([data-theme="slate-dark"]) .text-dark-muted,
+[data-theme]:not([data-theme="slate-dark"]) .text-slate-400,
+[data-theme]:not([data-theme="slate-dark"]) .text-slate-500,
+[data-theme="contrast-light"] .text-dark-muted,
+[data-theme="contrast-light"] .text-slate-400 {
+  color: var(--text-muted-app) !important;
+}
+
+/* Border overrides */
+[data-theme]:not([data-theme="slate-dark"]) .border-white\/10,
+[data-theme]:not([data-theme="slate-dark"]) .border-white\/5,
+[data-theme]:not([data-theme="slate-dark"]) .border-white\/20,
+[data-theme]:not([data-theme="slate-dark"]) .divide-white\/5 > * + *,
+[data-theme]:not([data-theme="slate-dark"]) .divide-white\/10 > * + * {
+  border-color: var(--border-app) !important;
+}
+
+/* Glassmorphism panel tint adaptation */
+[data-theme]:not([data-theme="slate-dark"]) .glass-panel,
+[data-theme]:not([data-theme="slate-dark"]) .glass-panel-elevated {
+  background: var(--surface-app) !important;
+  border-color: var(--border-app) !important;
+}
+
+/* Form inputs & dropdowns */
+[data-theme] input:not([type="checkbox"]):not([type="radio"]),
+[data-theme] select,
+[data-theme] textarea {
+  background-color: var(--surface-app) !important;
+  color: var(--text-app) !important;
+  border-color: var(--border-app) !important;
+}
+
+/* High-contrast OLED specific borders */
+[data-theme="oled-dark"] .border,
+[data-theme="oled-dark"] [class*="border-"] {
+  border-color: rgba(255, 255, 255, 0.4) !important;
+}
+[data-theme="oled-dark"] table th,
+[data-theme="oled-dark"] table td {
+  border-bottom: 1px solid #333333 !important;
+}
+
+/* High-contrast Light specific borders */
+[data-theme="contrast-light"] .border,
+[data-theme="contrast-light"] [class*="border-"] {
+  border-color: rgba(0, 0, 0, 0.35) !important;
+}
+[data-theme="contrast-light"] table th,
+[data-theme="contrast-light"] table td {
+  border-bottom: 1px solid #cbd5e1 !important;
+}
+[data-theme="contrast-light"] .bg-black\/40,
+[data-theme="contrast-light"] .bg-black\/30 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* ==========================================================================
+   5. Focus Aids: Sentence Focus & Reading Ruler
+   ========================================================================== */
+
+/* Sentence Focus Mode */
+[data-sentence-focus="true"] .sentence-focus-area .sentence-item {
+  opacity: 0.35;
+  transition: opacity 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 4px;
+  padding: 1px 3px;
+  margin: -1px -3px;
+  cursor: pointer;
+}
+
+[data-sentence-focus="true"] .sentence-focus-area .sentence-item:hover,
+[data-sentence-focus="true"] .sentence-focus-area .sentence-item.sentence-active,
+[data-sentence-focus="true"] .sentence-focus-area .sentence-item:focus {
+  opacity: 1 !important;
+  background-color: var(--sentence-highlight) !important;
+  box-shadow: 0 0 0 2px var(--sentence-ring) !important;
+}
+
+/* Reading Ruler Mask Component */
+.reading-ruler-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  overflow: hidden;
+}
+
+.reading-ruler-top-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--ruler-mask);
+  pointer-events: none;
+  transition: height 0.04s ease-out;
+}
+
+.reading-ruler-guide {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: var(--ruler-guide);
+  border-top: 2px solid var(--ruler-border);
+  border-bottom: 2px solid var(--ruler-border);
+  pointer-events: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  transition: top 0.04s ease-out;
+}
+
+.reading-ruler-bottom-mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--ruler-mask);
+  pointer-events: none;
+  transition: top 0.04s ease-out;
+}
+
+/* ==========================================================================
+   6. Bionic Reading Fixation Styling
+   ========================================================================== */
+.bionic-fixation {
+  font-weight: 800 !important;
+  color: inherit;
+  letter-spacing: -0.01em;
+}
+
+/* ==========================================================================
+   7. Keyboard Accessibility & Visible Focus Indicators (WCAG 2.2 AA)
+   ========================================================================== */
+*:focus-visible {
+  outline: 3px solid var(--focus-ring) !important;
+  outline-offset: 2px !important;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+[role="button"]:focus-visible,
+[role="switch"]:focus-visible {
+  outline: 3px solid var(--focus-ring) !important;
+  outline-offset: 2px !important;
+}
+
+/* ==========================================================================
+   8. Reduced Motion Support (@media prefers-reduced-motion)
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reading-ruler-top-mask,
+  .reading-ruler-guide,
+  .reading-ruler-bottom-mask {
+    transition: none !important;
+  }
+}

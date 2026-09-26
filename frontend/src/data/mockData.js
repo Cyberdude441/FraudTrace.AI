@@ -1,0 +1,18 @@
+// Re-export mock data for client standalone / fallback mode
+import {
+  SEED_CASE,
+  SEED_EVIDENCE,
+  SEED_ENTITIES,
+  SEED_TIMELINE_EVENTS,
+  SEED_RELATIONSHIPS,
+  SEED_INCONSISTENCIES,
+  SEED_AUDIT_LOGS
+} from './mockDataSeed.js';
+
+export const MOCK_CASE = SEED_CASE;
+export const MOCK_EVIDENCE = SEED_EVIDENCE;
+export const MOCK_ENTITIES = SEED_ENTITIES;
+export const MOCK_TIMELINE_EVENTS = SEED_TIMELINE_EVENTS;
+export const MOCK_RELATIONSHIPS = SEED_RELATIONSHIPS;
+export const MOCK_INCONSISTENCIES = SEED_INCONSISTENCIES;
+export const MOCK_AUDIT_LOGS = SEED_AUDIT_LOGS;

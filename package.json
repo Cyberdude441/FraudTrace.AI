@@ -1,0 +1,16 @@
+{
+  "name": "fraudtrace-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FraudTrace AI - AI-Powered Evidence Reconstruction & Incident Reporting Platform",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:backend": "npm start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend"
+  }
+}
