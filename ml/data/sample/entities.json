@@ -1,0 +1,48 @@
+[
+  {
+    "entityId": "ENTITY-001",
+    "entityType": "Person",
+    "canonicalValue": "SYNTHETIC-USER-001",
+    "synthetic": true
+  },
+  {
+    "entityId": "ENTITY-002",
+    "entityType": "Phone",
+    "canonicalValue": "+919000011111",
+    "aliases": [
+      "+91 90000 11111",
+      "9000011111"
+    ],
+    "synthetic": true
+  },
+  {
+    "entityId": "ENTITY-003",
+    "entityType": "URL",
+    "canonicalValue": "https://verification-demo.test/pay",
+    "synthetic": true
+  },
+  {
+    "entityId": "ENTITY-004",
+    "entityType": "Transaction",
+    "canonicalValue": "TXN-DEMO-48291",
+    "synthetic": true
+  },
+  {
+    "entityId": "ENTITY-005",
+    "entityType": "Transaction",
+    "canonicalValue": "TXN-DEMO-50000",
+    "synthetic": true
+  },
+  {
+    "entityId": "ENTITY-006",
+    "entityType": "Device",
+    "canonicalValue": "DEVICE-DEMO-001",
+    "synthetic": true
+  },
+  {
+    "entityId": "ENTITY-007",
+    "entityType": "Receipt",
+    "canonicalValue": "RECEIPT-DEMO-50000",
+    "synthetic": true
+  }
+]

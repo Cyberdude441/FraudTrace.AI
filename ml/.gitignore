@@ -1,0 +1,33 @@
+# Raw, interim, processed data (use ml/data/sample/ for committed sample data)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large model binaries (>50MB) - keep lightweight models in artifacts/models
+# artifacts/models/*.h5
+# artifacts/models/*.onnx
+# artifacts/models/*.bin
+
+# Training runs & outputs
+outputs/
+runs/

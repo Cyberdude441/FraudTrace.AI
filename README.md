@@ -116,7 +116,44 @@ Built-in compliance with DPDP and GDPR data minimization requirements allows ins
 
 ---
 
-## 5. Quickstart & Installation
+## 5. Machine Learning Pipeline (Google Colab First)
+
+FraudTrace AI includes a standalone, production-grade **Machine Learning Pipeline** located in `ml/`, engineered specifically for rapid experimentation in **Google Colab** while integrating cleanly with the Node.js backend.
+
+### Core Forensic ML Capabilities
+- **Forensic Normalization**: Canonical E.164 phone formats, Indian Rupee decimal parsing, ISO-8601 temporal conversion, and cryptographic SHA-256 deduplication.
+- **Cross-Source Entity Resolution**: Combines exact normalization with fuzzy Levenshtein distance to link disparate handles across banking logs and complainant reports.
+- **Event Correlation & Clustering**: Clusters evidence items into unified events across time and amount windows while preserving distinct source observations.
+- **Contradiction Detection Engine**: Classifies evidence pairs into 6 forensic states (`CORROBORATED`, `CONFLICTING`, `PARTIALLY_CORROBORATED`, `MISSING_DATA`, `TIMESTAMP_INCONSISTENCY`, `POSSIBLE_DUPLICATE`).
+- **Calibrated Confidence Scoring & Guardrails**: Enforces the immutable forensic rule that **contradictory evidence is strictly capped at LOW confidence (<= 0.40)**.
+
+### Google Colab Notebook Suite (`ml/notebooks/`)
+
+| # | Notebook | Topic | Description |
+| :-: | :--- | :--- | :--- |
+| **00** | [`00_setup_colab.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/00_setup_colab.ipynb) | Environment Setup | Diagnostic checks, repo clone, dependencies, smoke test |
+| **01** | [`01_data_exploration.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/01_data_exploration.ipynb) | Data Exploration | Evidence modality distribution, source breakdown, anomaly rates |
+| **02** | [`02_data_cleaning.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/02_data_cleaning.ipynb) | Data Cleaning | Normalization of phone, amount, timestamp, and saving clean sets |
+| **03** | [`03_feature_engineering.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/03_feature_engineering.ipynb) | Feature Engineering | 14-dimensional pairwise forensic feature vector extraction |
+| **04** | [`04_entity_resolution.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/04_entity_resolution.ipynb) | Entity Resolution | Exact & fuzzy matching across phones, UPIs, accounts, names |
+| **05** | [`05_event_correlation.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/05_event_correlation.ipynb) | Event Correlation | Timeline reconstruction while preserving independent sources |
+| **06** | [`06_contradiction_detection.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/06_contradiction_detection.ipynb) | Contradictions | Detecting amount mismatches (50k vs 48k) & time drifts |
+| **07** | [`07_confidence_scoring.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/07_confidence_scoring.ipynb) | Confidence Scoring | Calibration curve & proof that conflicts never yield high confidence |
+| **08** | [`08_model_training.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/08_model_training.ipynb) | Model Training | Logistic Regression vs Random Forest with incident-level splitting |
+| **09** | [`09_model_evaluation.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/09_model_evaluation.ipynb) | Model Evaluation | Confusion matrix, metrics report, and 8/8 Golden Tests verification |
+| **10** | [`10_inference_demo.ipynb`](file:///c:/Users/KIIT/Desktop/K-1000/ml/notebooks/10_inference_demo.ipynb) | Interactive Demo | End-to-end interactive inference with Section 7 JSON output |
+
+For full documentation, see:
+- [ML System Overview](file:///c:/Users/KIIT/Desktop/K-1000/docs/ml/README.md)
+- [Dataset Specification](file:///c:/Users/KIIT/Desktop/K-1000/docs/ml/dataset.md)
+- [Pipeline Architecture](file:///c:/Users/KIIT/Desktop/K-1000/docs/ml/pipeline.md)
+- [Contradiction Engine Guide](file:///c:/Users/KIIT/Desktop/K-1000/docs/ml/contradiction-engine.md)
+- [Confidence Scoring Guide](file:///c:/Users/KIIT/Desktop/K-1000/docs/ml/confidence-scoring.md)
+- [Google Colab Running Guide](file:///c:/Users/KIIT/Desktop/K-1000/docs/ml/colab-guide.md)
+
+---
+
+## 6. Quickstart & Installation
 
 ### Step 1: Install Dependencies
 
@@ -128,11 +165,15 @@ npm install
 # Install frontend dependencies
 cd ../frontend
 npm install
+
+# Install ML dependencies (optional for local ML server)
+cd ..
+pip install -r ml/requirements.txt
 ```
 
 ### Step 2: Start the Application
 
-You can run both services concurrently:
+You can run services concurrently:
 
 **Terminal 1 (Backend Server):**
 ```bash
@@ -148,6 +189,12 @@ npm run dev
 # Vite client runs on http://localhost:5173
 ```
 
+**Terminal 3 (Optional ML Inference Microservice):**
+```bash
+python -m uvicorn ml.api.main:app --host 0.0.0.0 --port 8000
+# FastAPI inference server on http://localhost:8000
+```
+
 ### Step 3: Access the Platform
 
 1. Open your browser and navigate to: `http://localhost:5173/login`
@@ -156,7 +203,7 @@ npm run dev
 
 ---
 
-## 6. Synthetic Seed Case: Operation Digital Mirage
+## 7. Synthetic Seed Case: Operation Digital Mirage
 
 The application is pre-seeded with a comprehensive synthetic dataset:
 - **Case ID**: `CASE-2026-001`
@@ -168,7 +215,7 @@ The application is pre-seeded with a comprehensive synthetic dataset:
 
 ---
 
-## 7. Security & Privacy Considerations
+## 8. Security & Privacy Considerations
 
 - **No Secrets in Source Code**: Credentials and API keys are abstracted via environment variables.
 - **Data Minimization**: One-click Privacy Masking prevents accidental PII exposure during presentations or reports.
@@ -177,6 +224,7 @@ The application is pre-seeded with a comprehensive synthetic dataset:
 
 ---
 
-## 8. License
+## 9. License
 
 FraudTrace AI is provided as an open-source evaluation and educational prototype.
+

@@ -1,0 +1,24 @@
+{
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "recall_macro": 1.0,
+  "f1_macro": 1.0,
+  "contradiction_precision": 1.0,
+  "contradiction_recall": 1.0,
+  "contradiction_f1": 1.0,
+  "confusion_matrix": [
+    [
+      7,
+      0
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "class_names": [
+    "Corroborated",
+    "Conflicting"
+  ],
+  "support": 13
+}

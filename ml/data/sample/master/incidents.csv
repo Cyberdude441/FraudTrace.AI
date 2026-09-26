@@ -1,0 +1,51 @@
+incident_id,label,incident_type,start_time,synthetic,notes
+INC001,suspicious_pattern,KYC verification scam,2026-09-01T08:17,true,Synthetic incident created for FraudTrace AI testing.
+INC002,suspicious_pattern,KYC verification scam,2026-09-02T16:05,true,Synthetic incident created for FraudTrace AI testing.
+INC003,suspicious_pattern,KYC verification scam,2026-09-03T11:14,true,Synthetic incident created for FraudTrace AI testing.
+INC004,suspicious_pattern,Bank impersonation,2026-09-04T14:14,true,Synthetic incident created for FraudTrace AI testing.
+INC005,suspicious_pattern,Refund scam,2026-09-05T14:21,true,Synthetic incident created for FraudTrace AI testing.
+INC006,suspicious_pattern,Parcel scam,2026-09-06T09:05,true,Synthetic incident created for FraudTrace AI testing.
+INC007,suspicious_pattern,Parcel scam,2026-09-07T17:16,true,Synthetic incident created for FraudTrace AI testing.
+INC008,suspicious_pattern,KYC verification scam,2026-09-08T16:18,true,Synthetic incident created for FraudTrace AI testing.
+INC009,suspicious_pattern,KYC verification scam,2026-09-09T11:18,true,Synthetic incident created for FraudTrace AI testing.
+INC010,suspicious_pattern,Job scam,2026-09-10T12:29,true,Synthetic incident created for FraudTrace AI testing.
+INC011,suspicious_pattern,Parcel scam,2026-09-11T11:42,true,Synthetic incident created for FraudTrace AI testing.
+INC012,suspicious_pattern,Bank impersonation,2026-09-12T11:10,true,Synthetic incident created for FraudTrace AI testing.
+INC013,suspicious_pattern,Bank impersonation,2026-09-13T11:43,true,Synthetic incident created for FraudTrace AI testing.
+INC014,suspicious_pattern,KYC verification scam,2026-09-14T13:25,true,Synthetic incident created for FraudTrace AI testing.
+INC015,suspicious_pattern,Bank impersonation,2026-09-15T13:13,true,Synthetic incident created for FraudTrace AI testing.
+INC016,suspicious_pattern,Refund scam,2026-09-16T12:08,true,Synthetic incident created for FraudTrace AI testing.
+INC017,suspicious_pattern,Bank impersonation,2026-09-17T14:23,true,Synthetic incident created for FraudTrace AI testing.
+INC018,suspicious_pattern,KYC verification scam,2026-09-18T08:07,true,Synthetic incident created for FraudTrace AI testing.
+INC019,suspicious_pattern,Job scam,2026-09-19T14:38,true,Synthetic incident created for FraudTrace AI testing.
+INC020,suspicious_pattern,KYC verification scam,2026-09-20T16:17,true,Synthetic incident created for FraudTrace AI testing.
+INC021,suspicious_pattern,Job scam,2026-09-21T10:29,true,Synthetic incident created for FraudTrace AI testing.
+INC022,suspicious_pattern,Bank impersonation,2026-09-22T09:40,true,Synthetic incident created for FraudTrace AI testing.
+INC023,suspicious_pattern,Parcel scam,2026-09-23T10:34,true,Synthetic incident created for FraudTrace AI testing.
+INC024,suspicious_pattern,Job scam,2026-09-24T08:07,true,Synthetic incident created for FraudTrace AI testing.
+INC025,suspicious_pattern,KYC verification scam,2026-09-25T11:36,true,Synthetic incident created for FraudTrace AI testing.
+INC026,suspicious_pattern,KYC verification scam,2026-09-26T16:08,true,Synthetic incident created for FraudTrace AI testing.
+INC027,suspicious_pattern,Parcel scam,2026-09-27T16:38,true,Synthetic incident created for FraudTrace AI testing.
+INC028,suspicious_pattern,Parcel scam,2026-09-28T14:42,true,Synthetic incident created for FraudTrace AI testing.
+INC029,suspicious_pattern,KYC verification scam,2026-09-29T11:14,true,Synthetic incident created for FraudTrace AI testing.
+INC030,suspicious_pattern,Bank impersonation,2026-09-30T11:00,true,Synthetic incident created for FraudTrace AI testing.
+INC031,normal,Utility payment,2026-10-01T08:21,true,Synthetic incident created for FraudTrace AI testing.
+INC032,normal,Salary credit,2026-10-02T15:13,true,Synthetic incident created for FraudTrace AI testing.
+INC033,normal,Shopping order,2026-10-03T15:26,true,Synthetic incident created for FraudTrace AI testing.
+INC034,normal,College fee,2026-10-04T13:27,true,Synthetic incident created for FraudTrace AI testing.
+INC035,normal,Utility payment,2026-10-05T08:25,true,Synthetic incident created for FraudTrace AI testing.
+INC036,normal,Shopping order,2026-10-06T11:34,true,Synthetic incident created for FraudTrace AI testing.
+INC037,normal,Shopping order,2026-10-07T12:29,true,Synthetic incident created for FraudTrace AI testing.
+INC038,normal,Subscription renewal,2026-10-08T09:03,true,Synthetic incident created for FraudTrace AI testing.
+INC039,normal,Shopping order,2026-10-09T10:26,true,Synthetic incident created for FraudTrace AI testing.
+INC040,normal,College fee,2026-10-10T08:10,true,Synthetic incident created for FraudTrace AI testing.
+INC041,normal,Salary credit,2026-10-11T15:18,true,Synthetic incident created for FraudTrace AI testing.
+INC042,normal,Shopping order,2026-10-12T11:18,true,Synthetic incident created for FraudTrace AI testing.
+INC043,normal,Salary credit,2026-10-13T08:03,true,Synthetic incident created for FraudTrace AI testing.
+INC044,normal,Utility payment,2026-10-14T16:05,true,Synthetic incident created for FraudTrace AI testing.
+INC045,normal,Shopping order,2026-10-15T14:07,true,Synthetic incident created for FraudTrace AI testing.
+INC046,normal,Subscription renewal,2026-10-16T09:26,true,Synthetic incident created for FraudTrace AI testing.
+INC047,normal,Shopping order,2026-10-17T13:15,true,Synthetic incident created for FraudTrace AI testing.
+INC048,normal,Salary credit,2026-10-18T15:20,true,Synthetic incident created for FraudTrace AI testing.
+INC049,normal,Subscription renewal,2026-10-19T17:06,true,Synthetic incident created for FraudTrace AI testing.
+INC050,normal,Subscription renewal,2026-10-20T12:08,true,Synthetic incident created for FraudTrace AI testing.

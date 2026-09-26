@@ -1,0 +1,9 @@
+{
+  "oneIndependentSource": "LOW",
+  "twoIndependentAgreeingSources": "MEDIUM",
+  "threeIndependentAgreeingSources": "HIGH",
+  "fourOrMoreIndependentAgreeingSources": "VERY HIGH",
+  "conflictingSources": "CONFLICTING",
+  "rule": "Source count alone must not override conflicts or duplicate-source detection.",
+  "independenceRule": "Multiple records copied from the same underlying source count as one underlying source."
+}

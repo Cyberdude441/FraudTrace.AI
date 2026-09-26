@@ -1,0 +1,139 @@
+indicator_id,incident_id,indicator_type,description,evidence_ids
+INC001_IND01,INC001,urgent_payment_request,Message contains an urgent financial payment request.,INC001_EV01
+INC001_IND02,INC001,payment_detected,"A payment of ₹1,499 is referenced.",INC001_EV01
+INC001_IND03,INC001,repeated_contact,The same phone number appears across multiple evidence sources.,INC001_EV01
+INC001_IND04,INC001,identity_or_kyc_language,Message contains KYC/account verification language.,INC001_EV01
+INC001_IND05,INC001,payment_or_verification_url,A payment/verification URL is present.,INC001_EV01
+INC002_IND01,INC002,urgent_payment_request,Message contains an urgent financial payment request.,INC002_EV01
+INC002_IND02,INC002,payment_detected,"A payment of ₹9,999 is referenced.",INC002_EV01
+INC002_IND03,INC002,repeated_contact,The same phone number appears across multiple evidence sources.,INC002_EV01
+INC002_IND04,INC002,identity_or_kyc_language,Message contains KYC/account verification language.,INC002_EV01
+INC002_IND05,INC002,payment_or_verification_url,A payment/verification URL is present.,INC002_EV01
+INC003_IND01,INC003,urgent_payment_request,Message contains an urgent financial payment request.,INC003_EV01
+INC003_IND02,INC003,payment_detected,"A payment of ₹25,000 is referenced.",INC003_EV01
+INC003_IND03,INC003,repeated_contact,The same phone number appears across multiple evidence sources.,INC003_EV01
+INC003_IND04,INC003,identity_or_kyc_language,Message contains KYC/account verification language.,INC003_EV01
+INC003_IND05,INC003,payment_or_verification_url,A payment/verification URL is present.,INC003_EV01
+INC004_IND01,INC004,urgent_payment_request,Message contains an urgent financial payment request.,INC004_EV01
+INC004_IND02,INC004,payment_detected,"A payment of ₹15,000 is referenced.",INC004_EV01
+INC004_IND03,INC004,repeated_contact,The same phone number appears across multiple evidence sources.,INC004_EV01
+INC004_IND04,INC004,identity_or_kyc_language,Message contains KYC/account verification language.,INC004_EV01
+INC004_IND05,INC004,payment_or_verification_url,A payment/verification URL is present.,INC004_EV01
+INC005_IND01,INC005,urgent_payment_request,Message contains an urgent financial payment request.,INC005_EV01
+INC005_IND02,INC005,payment_detected,"A payment of ₹2,499 is referenced.",INC005_EV01
+INC005_IND03,INC005,repeated_contact,The same phone number appears across multiple evidence sources.,INC005_EV01
+INC005_IND04,INC005,payment_or_verification_url,A payment/verification URL is present.,INC005_EV01
+INC006_IND01,INC006,urgent_payment_request,Message contains an urgent financial payment request.,INC006_EV01
+INC006_IND02,INC006,payment_detected,"A payment of ₹9,999 is referenced.",INC006_EV01
+INC006_IND03,INC006,repeated_contact,The same phone number appears across multiple evidence sources.,INC006_EV01
+INC006_IND04,INC006,payment_or_verification_url,A payment/verification URL is present.,INC006_EV01
+INC007_IND01,INC007,urgent_payment_request,Message contains an urgent financial payment request.,INC007_EV01
+INC007_IND02,INC007,payment_detected,A payment of ₹499 is referenced.,INC007_EV01
+INC007_IND03,INC007,repeated_contact,The same phone number appears across multiple evidence sources.,INC007_EV01
+INC007_IND04,INC007,payment_or_verification_url,A payment/verification URL is present.,INC007_EV01
+INC008_IND01,INC008,urgent_payment_request,Message contains an urgent financial payment request.,INC008_EV01
+INC008_IND02,INC008,payment_detected,"A payment of ₹4,999 is referenced.",INC008_EV01
+INC008_IND03,INC008,repeated_contact,The same phone number appears across multiple evidence sources.,INC008_EV01
+INC008_IND04,INC008,identity_or_kyc_language,Message contains KYC/account verification language.,INC008_EV01
+INC008_IND05,INC008,payment_or_verification_url,A payment/verification URL is present.,INC008_EV01
+INC009_IND01,INC009,urgent_payment_request,Message contains an urgent financial payment request.,INC009_EV01
+INC009_IND02,INC009,payment_detected,A payment of ₹799 is referenced.,INC009_EV01
+INC009_IND03,INC009,repeated_contact,The same phone number appears across multiple evidence sources.,INC009_EV01
+INC009_IND04,INC009,identity_or_kyc_language,Message contains KYC/account verification language.,INC009_EV01
+INC009_IND05,INC009,payment_or_verification_url,A payment/verification URL is present.,INC009_EV01
+INC010_IND01,INC010,urgent_payment_request,Message contains an urgent financial payment request.,INC010_EV01
+INC010_IND02,INC010,payment_detected,"A payment of ₹4,999 is referenced.",INC010_EV01
+INC010_IND03,INC010,repeated_contact,The same phone number appears across multiple evidence sources.,INC010_EV01
+INC010_IND04,INC010,payment_or_verification_url,A payment/verification URL is present.,INC010_EV01
+INC011_IND01,INC011,urgent_payment_request,Message contains an urgent financial payment request.,INC011_EV01
+INC011_IND02,INC011,payment_detected,"A payment of ₹2,499 is referenced.",INC011_EV01
+INC011_IND03,INC011,repeated_contact,The same phone number appears across multiple evidence sources.,INC011_EV01
+INC011_IND04,INC011,payment_or_verification_url,A payment/verification URL is present.,INC011_EV01
+INC012_IND01,INC012,urgent_payment_request,Message contains an urgent financial payment request.,INC012_EV01
+INC012_IND02,INC012,payment_detected,"A payment of ₹15,000 is referenced.",INC012_EV01
+INC012_IND03,INC012,repeated_contact,The same phone number appears across multiple evidence sources.,INC012_EV01
+INC012_IND04,INC012,identity_or_kyc_language,Message contains KYC/account verification language.,INC012_EV01
+INC012_IND05,INC012,payment_or_verification_url,A payment/verification URL is present.,INC012_EV01
+INC013_IND01,INC013,urgent_payment_request,Message contains an urgent financial payment request.,INC013_EV01
+INC013_IND02,INC013,payment_detected,"A payment of ₹4,999 is referenced.",INC013_EV01
+INC013_IND03,INC013,repeated_contact,The same phone number appears across multiple evidence sources.,INC013_EV01
+INC013_IND04,INC013,identity_or_kyc_language,Message contains KYC/account verification language.,INC013_EV01
+INC013_IND05,INC013,payment_or_verification_url,A payment/verification URL is present.,INC013_EV01
+INC014_IND01,INC014,urgent_payment_request,Message contains an urgent financial payment request.,INC014_EV01
+INC014_IND02,INC014,payment_detected,"A payment of ₹2,499 is referenced.",INC014_EV01
+INC014_IND03,INC014,repeated_contact,The same phone number appears across multiple evidence sources.,INC014_EV01
+INC014_IND04,INC014,identity_or_kyc_language,Message contains KYC/account verification language.,INC014_EV01
+INC014_IND05,INC014,payment_or_verification_url,A payment/verification URL is present.,INC014_EV01
+INC015_IND01,INC015,urgent_payment_request,Message contains an urgent financial payment request.,INC015_EV01
+INC015_IND02,INC015,payment_detected,"A payment of ₹15,000 is referenced.",INC015_EV01
+INC015_IND03,INC015,repeated_contact,The same phone number appears across multiple evidence sources.,INC015_EV01
+INC015_IND04,INC015,identity_or_kyc_language,Message contains KYC/account verification language.,INC015_EV01
+INC015_IND05,INC015,payment_or_verification_url,A payment/verification URL is present.,INC015_EV01
+INC016_IND01,INC016,urgent_payment_request,Message contains an urgent financial payment request.,INC016_EV01
+INC016_IND02,INC016,payment_detected,"A payment of ₹1,499 is referenced.",INC016_EV01
+INC016_IND03,INC016,repeated_contact,The same phone number appears across multiple evidence sources.,INC016_EV01
+INC016_IND04,INC016,payment_or_verification_url,A payment/verification URL is present.,INC016_EV01
+INC017_IND01,INC017,urgent_payment_request,Message contains an urgent financial payment request.,INC017_EV01
+INC017_IND02,INC017,payment_detected,"A payment of ₹1,499 is referenced.",INC017_EV01
+INC017_IND03,INC017,repeated_contact,The same phone number appears across multiple evidence sources.,INC017_EV01
+INC017_IND04,INC017,identity_or_kyc_language,Message contains KYC/account verification language.,INC017_EV01
+INC017_IND05,INC017,payment_or_verification_url,A payment/verification URL is present.,INC017_EV01
+INC018_IND01,INC018,urgent_payment_request,Message contains an urgent financial payment request.,INC018_EV01
+INC018_IND02,INC018,payment_detected,A payment of ₹999 is referenced.,INC018_EV01
+INC018_IND03,INC018,repeated_contact,The same phone number appears across multiple evidence sources.,INC018_EV01
+INC018_IND04,INC018,identity_or_kyc_language,Message contains KYC/account verification language.,INC018_EV01
+INC018_IND05,INC018,payment_or_verification_url,A payment/verification URL is present.,INC018_EV01
+INC019_IND01,INC019,urgent_payment_request,Message contains an urgent financial payment request.,INC019_EV01
+INC019_IND02,INC019,payment_detected,"A payment of ₹15,000 is referenced.",INC019_EV01
+INC019_IND03,INC019,repeated_contact,The same phone number appears across multiple evidence sources.,INC019_EV01
+INC019_IND04,INC019,payment_or_verification_url,A payment/verification URL is present.,INC019_EV01
+INC020_IND01,INC020,urgent_payment_request,Message contains an urgent financial payment request.,INC020_EV01
+INC020_IND02,INC020,payment_detected,"A payment of ₹4,999 is referenced.",INC020_EV01
+INC020_IND03,INC020,repeated_contact,The same phone number appears across multiple evidence sources.,INC020_EV01
+INC020_IND04,INC020,identity_or_kyc_language,Message contains KYC/account verification language.,INC020_EV01
+INC020_IND05,INC020,payment_or_verification_url,A payment/verification URL is present.,INC020_EV01
+INC021_IND01,INC021,urgent_payment_request,Message contains an urgent financial payment request.,INC021_EV01
+INC021_IND02,INC021,payment_detected,A payment of ₹499 is referenced.,INC021_EV01
+INC021_IND03,INC021,repeated_contact,The same phone number appears across multiple evidence sources.,INC021_EV01
+INC021_IND04,INC021,payment_or_verification_url,A payment/verification URL is present.,INC021_EV01
+INC022_IND01,INC022,urgent_payment_request,Message contains an urgent financial payment request.,INC022_EV01
+INC022_IND02,INC022,payment_detected,"A payment of ₹2,499 is referenced.",INC022_EV01
+INC022_IND03,INC022,repeated_contact,The same phone number appears across multiple evidence sources.,INC022_EV01
+INC022_IND04,INC022,identity_or_kyc_language,Message contains KYC/account verification language.,INC022_EV01
+INC022_IND05,INC022,payment_or_verification_url,A payment/verification URL is present.,INC022_EV01
+INC023_IND01,INC023,urgent_payment_request,Message contains an urgent financial payment request.,INC023_EV01
+INC023_IND02,INC023,payment_detected,"A payment of ₹25,000 is referenced.",INC023_EV01
+INC023_IND03,INC023,repeated_contact,The same phone number appears across multiple evidence sources.,INC023_EV01
+INC023_IND04,INC023,payment_or_verification_url,A payment/verification URL is present.,INC023_EV01
+INC024_IND01,INC024,urgent_payment_request,Message contains an urgent financial payment request.,INC024_EV01
+INC024_IND02,INC024,payment_detected,"A payment of ₹4,999 is referenced.",INC024_EV01
+INC024_IND03,INC024,repeated_contact,The same phone number appears across multiple evidence sources.,INC024_EV01
+INC024_IND04,INC024,payment_or_verification_url,A payment/verification URL is present.,INC024_EV01
+INC025_IND01,INC025,urgent_payment_request,Message contains an urgent financial payment request.,INC025_EV01
+INC025_IND02,INC025,payment_detected,A payment of ₹799 is referenced.,INC025_EV01
+INC025_IND03,INC025,repeated_contact,The same phone number appears across multiple evidence sources.,INC025_EV01
+INC025_IND04,INC025,identity_or_kyc_language,Message contains KYC/account verification language.,INC025_EV01
+INC025_IND05,INC025,payment_or_verification_url,A payment/verification URL is present.,INC025_EV01
+INC026_IND01,INC026,urgent_payment_request,Message contains an urgent financial payment request.,INC026_EV01
+INC026_IND02,INC026,payment_detected,A payment of ₹999 is referenced.,INC026_EV01
+INC026_IND03,INC026,repeated_contact,The same phone number appears across multiple evidence sources.,INC026_EV01
+INC026_IND04,INC026,identity_or_kyc_language,Message contains KYC/account verification language.,INC026_EV01
+INC026_IND05,INC026,payment_or_verification_url,A payment/verification URL is present.,INC026_EV01
+INC027_IND01,INC027,urgent_payment_request,Message contains an urgent financial payment request.,INC027_EV01
+INC027_IND02,INC027,payment_detected,"A payment of ₹9,999 is referenced.",INC027_EV01
+INC027_IND03,INC027,repeated_contact,The same phone number appears across multiple evidence sources.,INC027_EV01
+INC027_IND04,INC027,payment_or_verification_url,A payment/verification URL is present.,INC027_EV01
+INC028_IND01,INC028,urgent_payment_request,Message contains an urgent financial payment request.,INC028_EV01
+INC028_IND02,INC028,payment_detected,"A payment of ₹4,999 is referenced.",INC028_EV01
+INC028_IND03,INC028,repeated_contact,The same phone number appears across multiple evidence sources.,INC028_EV01
+INC028_IND04,INC028,payment_or_verification_url,A payment/verification URL is present.,INC028_EV01
+INC029_IND01,INC029,urgent_payment_request,Message contains an urgent financial payment request.,INC029_EV01
+INC029_IND02,INC029,payment_detected,A payment of ₹799 is referenced.,INC029_EV01
+INC029_IND03,INC029,repeated_contact,The same phone number appears across multiple evidence sources.,INC029_EV01
+INC029_IND04,INC029,identity_or_kyc_language,Message contains KYC/account verification language.,INC029_EV01
+INC029_IND05,INC029,payment_or_verification_url,A payment/verification URL is present.,INC029_EV01
+INC030_IND01,INC030,urgent_payment_request,Message contains an urgent financial payment request.,INC030_EV01
+INC030_IND02,INC030,payment_detected,A payment of ₹799 is referenced.,INC030_EV01
+INC030_IND03,INC030,repeated_contact,The same phone number appears across multiple evidence sources.,INC030_EV01
+INC030_IND04,INC030,identity_or_kyc_language,Message contains KYC/account verification language.,INC030_EV01
+INC030_IND05,INC030,payment_or_verification_url,A payment/verification URL is present.,INC030_EV01

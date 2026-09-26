@@ -1,0 +1,41 @@
+[
+  {
+    "sourceType": "Financial Record",
+    "examples": [
+      "Bank Record"
+    ]
+  },
+  {
+    "sourceType": "Transaction Notification",
+    "examples": [
+      "SMS"
+    ]
+  },
+  {
+    "sourceType": "Communication",
+    "examples": [
+      "Chat",
+      "Email",
+      "Call Log"
+    ]
+  },
+  {
+    "sourceType": "Visual Capture",
+    "examples": [
+      "Screenshot"
+    ]
+  },
+  {
+    "sourceType": "System Record",
+    "examples": [
+      "Browser History",
+      "Device Metadata"
+    ]
+  },
+  {
+    "sourceType": "Human Report",
+    "examples": [
+      "Analyst Note"
+    ]
+  }
+]

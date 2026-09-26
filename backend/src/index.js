@@ -14,6 +14,7 @@ import inconsistencyRoutes from './routes/inconsistencyRoutes.js';
 import reportRoutes from './routes/reportRoutes.js';
 import aiRoutes from './routes/aiRoutes.js';
 import auditRoutes from './routes/auditRoutes.js';
+import mlRoutes from './routes/mlRoutes.js';
 
 dotenv.config();
 
@@ -51,6 +52,7 @@ app.use('/api/inconsistencies', inconsistencyRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/audit', auditRoutes);
+app.use('/api/ml', mlRoutes);
 
 // Central error handler
 app.use(errorHandler);

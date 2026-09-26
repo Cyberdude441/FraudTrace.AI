@@ -1,0 +1,10 @@
+inconsistency_id,incident_id,type,description,evidence_ids,status
+INC004_INC_TIME,INC004,timestamp_mismatch,Bank transaction timestamp is significantly later than the related screenshot.,INC004_EV02;INC004_EV03,needs_review
+INC007_INC_AMOUNT,INC007,amount_mismatch,Chat/screenshot amount is ₹499 but bank record shows ₹-1.,INC007_EV01;INC007_EV02;INC007_EV03,needs_review
+INC010_GAP_TIME,INC010,missing_timestamp,Bank transaction record has no exact time.,INC010_EV03,missing_information
+INC016_INC_TIME,INC016,timestamp_mismatch,Bank transaction timestamp is significantly later than the related screenshot.,INC016_EV02;INC016_EV03,needs_review
+INC018_INC_AMOUNT,INC018,amount_mismatch,"Chat/screenshot amount is ₹999 but bank record shows ₹1,499.",INC018_EV01;INC018_EV02;INC018_EV03,needs_review
+INC022_GAP_TIME,INC022,missing_timestamp,Bank transaction record has no exact time.,INC022_EV03,missing_information
+INC027_INC_TIME,INC027,timestamp_mismatch,Bank transaction timestamp is significantly later than the related screenshot.,INC027_EV02;INC027_EV03,needs_review
+INC029_INC_AMOUNT,INC029,amount_mismatch,Chat/screenshot amount is ₹799 but bank record shows ₹299.,INC029_EV01;INC029_EV02;INC029_EV03,needs_review
+INC035_GAP_TIME,INC035,missing_timestamp,Bank transaction record has no exact time.,INC035_EV03,missing_information

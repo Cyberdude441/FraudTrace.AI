@@ -1,0 +1,91 @@
+[
+  {
+    "inconsistencyId": "INC-001",
+    "type": "AMOUNT_CONFLICT",
+    "eventId": "EVENT-004",
+    "status": "CONFLICTING",
+    "observedValues": [
+      50000,
+      48000
+    ],
+    "evidence": [
+      "EVIDENCE-001",
+      "EVIDENCE-003",
+      "EVIDENCE-004",
+      "EVIDENCE-010"
+    ],
+    "message": "Conflicting transaction amounts detected."
+  },
+  {
+    "inconsistencyId": "INC-002",
+    "type": "TIMESTAMP_INCONSISTENCY",
+    "eventId": "EVENT-005",
+    "status": "REVIEW_REQUIRED",
+    "observedValues": [
+      "10:41:20",
+      "10:45:00",
+      "~10:45"
+    ],
+    "evidence": [
+      "EVIDENCE-005",
+      "EVIDENCE-008",
+      "EVIDENCE-012"
+    ],
+    "message": "Potential timestamp discrepancy; possible explanations include approximate recollection, message timestamp delay, device clock difference, or logging difference."
+  },
+  {
+    "inconsistencyId": "INC-003",
+    "type": "TRANSACTION_ID_CONFLICT",
+    "eventId": "EVENT-004",
+    "status": "CONFLICTING",
+    "observedValues": [
+      "TXN-DEMO-48291",
+      "TXN-DEMO-50000"
+    ],
+    "evidence": [
+      "EVIDENCE-003",
+      "EVIDENCE-004",
+      "EVIDENCE-010"
+    ],
+    "message": "Multiple records refer to the payment event but contain different transaction/reference identifiers."
+  },
+  {
+    "inconsistencyId": "INC-004",
+    "type": "MISSING_DATA",
+    "eventId": "EVENT-007",
+    "status": "MISSING_DATA",
+    "missingFields": [
+      "EVIDENCE-002.timestamp",
+      "EVIDENCE-010.timestamp"
+    ],
+    "evidence": [
+      "EVIDENCE-002",
+      "EVIDENCE-010"
+    ],
+    "message": "Timestamp information is unavailable or incomplete."
+  },
+  {
+    "inconsistencyId": "INC-005",
+    "type": "MISSING_PARTICIPANT",
+    "eventId": "EVENT-005",
+    "status": "MISSING_DATA",
+    "missingFields": [
+      "EVIDENCE-005.recipient"
+    ],
+    "evidence": [
+      "EVIDENCE-005"
+    ],
+    "message": "Call recipient information is missing."
+  },
+  {
+    "inconsistencyId": "INC-006",
+    "type": "POSSIBLE_DUPLICATE_EVENT",
+    "eventId": "EVENT-001",
+    "status": "DUPLICATE",
+    "evidence": [
+      "EVIDENCE-001",
+      "EVIDENCE-008"
+    ],
+    "message": "The two chat exports contain overlapping descriptions and may represent the same underlying event. They should not be counted as independent corroboration without source-independence validation."
+  }
+]

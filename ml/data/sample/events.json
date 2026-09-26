@@ -1,0 +1,251 @@
+[
+  {
+    "eventId": "EVENT-001",
+    "eventType": "PAYMENT_REQUEST",
+    "canonicalDescription": "Payment request was sent.",
+    "timeRange": {
+      "start": "2026-09-26T10:30:00+05:30",
+      "end": "2026-09-26T10:31:04+05:30"
+    },
+    "entities": [
+      "ENTITY-001",
+      "ENTITY-002"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-001",
+      "EVIDENCE-006",
+      "EVIDENCE-009"
+    ],
+    "contradictingEvidence": [],
+    "corroborationCount": 3,
+    "independentSourceCount": 3,
+    "confidence": "HIGH",
+    "status": "CORROBORATED",
+    "explanation": "Three independent evidence sources describe the same payment request with matching amount and approximately matching time.",
+    "observations": [
+      {
+        "evidenceId": "EVIDENCE-001",
+        "field": "amount",
+        "value": 50000,
+        "currency": "INR"
+      },
+      {
+        "evidenceId": "EVIDENCE-006",
+        "field": "amount",
+        "value": 50000,
+        "currency": "INR"
+      },
+      {
+        "evidenceId": "EVIDENCE-009",
+        "field": "amount",
+        "value": 50000,
+        "currency": "INR"
+      }
+    ]
+  },
+  {
+    "eventId": "EVENT-002",
+    "eventType": "PAYMENT_URL_SHARED",
+    "canonicalDescription": "Payment URL was shared.",
+    "timeRange": {
+      "start": "2026-09-26T10:30:20+05:30",
+      "end": "2026-09-26T10:35:11+05:30"
+    },
+    "entities": [
+      "ENTITY-003"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-001",
+      "EVIDENCE-006",
+      "EVIDENCE-007",
+      "EVIDENCE-009"
+    ],
+    "contradictingEvidence": [],
+    "corroborationCount": 4,
+    "independentSourceCount": 4,
+    "confidence": "VERY HIGH",
+    "status": "CORROBORATED",
+    "explanation": "The same synthetic URL appears independently across chat, browser history, screenshot, and email."
+  },
+  {
+    "eventId": "EVENT-003",
+    "eventType": "PAYMENT_PAGE_ACCESS",
+    "canonicalDescription": "User opened the payment page.",
+    "timeRange": {
+      "start": "2026-09-26T10:35:11+05:30",
+      "end": "2026-09-26T10:35:11+05:30"
+    },
+    "entities": [
+      "ENTITY-003",
+      "ENTITY-006"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-007",
+      "EVIDENCE-011"
+    ],
+    "contradictingEvidence": [],
+    "corroborationCount": 1,
+    "independentSourceCount": 1,
+    "confidence": "LOW/MEDIUM",
+    "status": "PARTIALLY_CORROBORATED",
+    "explanation": "Browser history directly records the URL visit, but no independent evidence source confirms the access event.",
+    "distinction": "URL shared is not equivalent to URL opened."
+  },
+  {
+    "eventId": "EVENT-004",
+    "eventType": "PAYMENT_COMPLETED",
+    "canonicalDescription": "Payment was completed.",
+    "timeRange": {
+      "start": "2026-09-26T10:42:00+05:30",
+      "end": "2026-09-26T10:43:08+05:30"
+    },
+    "entities": [
+      "ENTITY-004",
+      "ENTITY-005",
+      "ENTITY-007"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-001",
+      "EVIDENCE-003",
+      "EVIDENCE-004",
+      "EVIDENCE-010"
+    ],
+    "contradictingEvidence": [
+      "EVIDENCE-001",
+      "EVIDENCE-003",
+      "EVIDENCE-004",
+      "EVIDENCE-010"
+    ],
+    "corroborationCount": 4,
+    "independentSourceCount": 4,
+    "confidence": "CONFLICTING",
+    "status": "CONFLICTING",
+    "explanation": "Four sources appear to describe the same payment event. Two sources report ₹50,000 while two sources report ₹48,000. The system has not selected a winning value. Manual review is required.",
+    "observations": [
+      {
+        "evidenceId": "EVIDENCE-001",
+        "field": "amount",
+        "value": 50000,
+        "currency": "INR"
+      },
+      {
+        "evidenceId": "EVIDENCE-003",
+        "field": "amount",
+        "value": 48000,
+        "currency": "INR"
+      },
+      {
+        "evidenceId": "EVIDENCE-004",
+        "field": "amount",
+        "value": 48000,
+        "currency": "INR"
+      },
+      {
+        "evidenceId": "EVIDENCE-010",
+        "field": "amount",
+        "value": 50000,
+        "currency": "INR"
+      }
+    ],
+    "corroborationGroups": [
+      {
+        "value": 50000,
+        "currency": "INR",
+        "sourceCount": 2,
+        "sources": [
+          "EVIDENCE-001",
+          "EVIDENCE-010"
+        ]
+      },
+      {
+        "value": 48000,
+        "currency": "INR",
+        "sourceCount": 2,
+        "sources": [
+          "EVIDENCE-003",
+          "EVIDENCE-004"
+        ]
+      }
+    ]
+  },
+  {
+    "eventId": "EVENT-005",
+    "eventType": "PHONE_CALL",
+    "canonicalDescription": "Phone call occurred.",
+    "timeRange": {
+      "start": "2026-09-26T10:41:20+05:30",
+      "end": "2026-09-26T10:45:00+05:30"
+    },
+    "entities": [
+      "ENTITY-001",
+      "ENTITY-002"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-005",
+      "EVIDENCE-008",
+      "EVIDENCE-012"
+    ],
+    "contradictingEvidence": [],
+    "corroborationCount": 3,
+    "independentSourceCount": 3,
+    "confidence": "REVIEW_REQUIRED",
+    "status": "REVIEW_REQUIRED",
+    "explanation": "The call log records 10:45, the chat states 10:41:20, and the analyst note gives an approximate 10:45 recollection. The timing discrepancy is not treated as proof that any source is false.",
+    "inconsistencyType": "TIMESTAMP_INCONSISTENCY",
+    "possibleExplanations": [
+      "Approximate recollection",
+      "Message timestamp delay",
+      "Device clock difference",
+      "Logging difference"
+    ]
+  },
+  {
+    "eventId": "EVENT-006",
+    "eventType": "TRANSACTION_NOTIFICATION",
+    "canonicalDescription": "Transaction notification was generated.",
+    "timeRange": {
+      "start": "2026-09-26T10:43:02+05:30",
+      "end": "2026-09-26T10:43:08+05:30"
+    },
+    "entities": [
+      "ENTITY-004"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-003",
+      "EVIDENCE-004"
+    ],
+    "contradictingEvidence": [],
+    "corroborationCount": 2,
+    "independentSourceCount": 2,
+    "confidence": "MEDIUM",
+    "status": "CORROBORATED",
+    "explanation": "The synthetic bank record and synthetic SMS independently report the same ₹48,000 amount and transaction reference TXN-DEMO-48291."
+  },
+  {
+    "eventId": "EVENT-007",
+    "eventType": "PAYMENT_RECEIPT_GENERATED",
+    "canonicalDescription": "Payment receipt was generated.",
+    "timeRange": {
+      "start": "2026-09-26T10:42:00+05:30",
+      "end": "2026-09-26T10:42:00+05:30"
+    },
+    "entities": [
+      "ENTITY-005",
+      "ENTITY-007"
+    ],
+    "supportingEvidence": [
+      "EVIDENCE-002",
+      "EVIDENCE-010"
+    ],
+    "contradictingEvidence": [],
+    "corroborationCount": 2,
+    "independentSourceCount": 2,
+    "confidence": "MISSING_DATA",
+    "status": "MISSING_DATA",
+    "explanation": "The receipt-related evidence contains an amount and receipt/transaction identifiers, but the screenshot/receipt timestamp information is incomplete.",
+    "missingFields": [
+      "EVIDENCE-002.timestamp",
+      "EVIDENCE-010.timestamp"
+    ]
+  }
+]

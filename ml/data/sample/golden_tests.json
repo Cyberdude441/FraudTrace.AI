@@ -1,0 +1,71 @@
+[
+  {
+    "testId": "TEST-1",
+    "name": "Three sources agree on amount",
+    "input": {
+      "eventId": "EVENT-001"
+    },
+    "expectedStatus": "CORROBORATED",
+    "expectedConfidence": "HIGH"
+  },
+  {
+    "testId": "TEST-2",
+    "name": "Two sources ₹50,000 vs two sources ₹48,000",
+    "input": {
+      "eventId": "EVENT-004"
+    },
+    "expectedStatus": "CONFLICTING"
+  },
+  {
+    "testId": "TEST-3",
+    "name": "Four sources reference same URL",
+    "input": {
+      "eventId": "EVENT-002"
+    },
+    "expectedStatus": "CORROBORATED",
+    "expectedConfidence": "VERY HIGH"
+  },
+  {
+    "testId": "TEST-4",
+    "name": "Screenshot has no timestamp",
+    "input": {
+      "evidenceId": "EVIDENCE-002"
+    },
+    "expectedStatus": "MISSING_DATA"
+  },
+  {
+    "testId": "TEST-5",
+    "name": "Two copies of same chat",
+    "input": {
+      "evidenceIds": [
+        "EVIDENCE-001",
+        "EVIDENCE-008"
+      ]
+    },
+    "expectedStatus": "POSSIBLE_DUPLICATE"
+  },
+  {
+    "testId": "TEST-6",
+    "name": "Bank record + SMS agree",
+    "input": {
+      "eventId": "EVENT-006"
+    },
+    "expectedStatus": "CORROBORATED"
+  },
+  {
+    "testId": "TEST-7",
+    "name": "Call log 10:45 vs chat 10:41",
+    "input": {
+      "eventId": "EVENT-005"
+    },
+    "expectedStatus": "TIMESTAMP_INCONSISTENCY"
+  },
+  {
+    "testId": "TEST-8",
+    "name": "Only browser history proves URL access",
+    "input": {
+      "eventId": "EVENT-003"
+    },
+    "expectedConfidence": "LOW/MEDIUM"
+  }
+]

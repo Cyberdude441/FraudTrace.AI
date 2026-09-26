@@ -1,0 +1,20 @@
+[
+  {
+    "caseId": "CASE-DEMO-001",
+    "title": "Online Payment Incident — Synthetic Demo",
+    "status": "Under Review",
+    "synthetic": true,
+    "description": "A fictional user reports that they were contacted through a messaging platform and subsequently made a payment after receiving a payment request. Multiple digital evidence sources describe the incident, but some sources agree while others contain discrepancies.",
+    "purpose": [
+      "Evidence extraction",
+      "Event correlation",
+      "Corroboration",
+      "Contradiction detection",
+      "Confidence scoring",
+      "Missing information detection",
+      "Source traceability",
+      "Explainable reasoning"
+    ],
+    "uiBanner": "Demo Environment — All evidence shown here is synthetic."
+  }
+]

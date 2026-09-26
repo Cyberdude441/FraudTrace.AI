@@ -1,0 +1,251 @@
+event_id,incident_id,evidence_id,timestamp,event_type,description
+INC001_T01,INC001,INC001_EV01,2026-09-01T08:17,message,Message/notification received
+INC001_T02,INC001,INC001_EV02,2026-09-01T08:21,payment_request,Payment-related screenshot captured
+INC001_T03,INC001,INC001_EV03,2026-09-01T08:25,transaction,Bank transaction recorded
+INC001_T04,INC001,INC001_EV04,2026-09-01T08:27,email,Transaction-related email received
+INC001_T05,INC001,INC001_EV05,2026-09-01T08:32,call,Phone call recorded
+INC002_T01,INC002,INC002_EV01,2026-09-02T16:05,message,Message/notification received
+INC002_T02,INC002,INC002_EV02,2026-09-02T16:09,payment_request,Payment-related screenshot captured
+INC002_T03,INC002,INC002_EV03,2026-09-02T16:13,transaction,Bank transaction recorded
+INC002_T04,INC002,INC002_EV04,2026-09-02T16:15,email,Transaction-related email received
+INC002_T05,INC002,INC002_EV05,2026-09-02T16:20,call,Phone call recorded
+INC003_T01,INC003,INC003_EV01,2026-09-03T11:14,message,Message/notification received
+INC003_T02,INC003,INC003_EV02,2026-09-03T11:18,payment_request,Payment-related screenshot captured
+INC003_T03,INC003,INC003_EV03,2026-09-03T11:22,transaction,Bank transaction recorded
+INC003_T04,INC003,INC003_EV04,2026-09-03T11:24,email,Transaction-related email received
+INC003_T05,INC003,INC003_EV05,2026-09-03T11:29,call,Phone call recorded
+INC004_T01,INC004,INC004_EV01,2026-09-04T14:14,message,Message/notification received
+INC004_T02,INC004,INC004_EV02,2026-09-04T14:18,payment_request,Payment-related screenshot captured
+INC004_T03,INC004,INC004_EV03,2026-09-04T14:52,transaction,Bank transaction recorded
+INC004_T04,INC004,INC004_EV04,2026-09-04T14:24,email,Transaction-related email received
+INC004_T05,INC004,INC004_EV05,2026-09-04T14:29,call,Phone call recorded
+INC005_T01,INC005,INC005_EV01,2026-09-05T14:21,message,Message/notification received
+INC005_T02,INC005,INC005_EV02,2026-09-05T14:25,payment_request,Payment-related screenshot captured
+INC005_T03,INC005,INC005_EV03,2026-09-05T14:29,transaction,Bank transaction recorded
+INC005_T04,INC005,INC005_EV04,2026-09-05T14:31,email,Transaction-related email received
+INC005_T05,INC005,INC005_EV05,2026-09-05T14:36,call,Phone call recorded
+INC006_T01,INC006,INC006_EV01,2026-09-06T09:05,message,Message/notification received
+INC006_T02,INC006,INC006_EV02,2026-09-06T09:09,payment_request,Payment-related screenshot captured
+INC006_T03,INC006,INC006_EV03,2026-09-06T09:13,transaction,Bank transaction recorded
+INC006_T04,INC006,INC006_EV04,2026-09-06T09:15,email,Transaction-related email received
+INC006_T05,INC006,INC006_EV05,2026-09-06T09:20,call,Phone call recorded
+INC007_T01,INC007,INC007_EV01,2026-09-07T17:16,message,Message/notification received
+INC007_T02,INC007,INC007_EV02,2026-09-07T17:20,payment_request,Payment-related screenshot captured
+INC007_T03,INC007,INC007_EV03,2026-09-07T17:24,transaction,Bank transaction recorded
+INC007_T04,INC007,INC007_EV04,2026-09-07T17:26,email,Transaction-related email received
+INC007_T05,INC007,INC007_EV05,2026-09-07T17:31,call,Phone call recorded
+INC008_T01,INC008,INC008_EV01,2026-09-08T16:18,message,Message/notification received
+INC008_T02,INC008,INC008_EV02,2026-09-08T16:22,payment_request,Payment-related screenshot captured
+INC008_T03,INC008,INC008_EV03,2026-09-08T16:26,transaction,Bank transaction recorded
+INC008_T04,INC008,INC008_EV04,2026-09-08T16:28,email,Transaction-related email received
+INC008_T05,INC008,INC008_EV05,2026-09-08T16:33,call,Phone call recorded
+INC009_T01,INC009,INC009_EV01,2026-09-09T11:18,message,Message/notification received
+INC009_T02,INC009,INC009_EV02,2026-09-09T11:22,payment_request,Payment-related screenshot captured
+INC009_T03,INC009,INC009_EV03,2026-09-09T11:26,transaction,Bank transaction recorded
+INC009_T04,INC009,INC009_EV04,2026-09-09T11:28,email,Transaction-related email received
+INC009_T05,INC009,INC009_EV05,2026-09-09T11:33,call,Phone call recorded
+INC010_T01,INC010,INC010_EV01,2026-09-10T12:29,message,Message/notification received
+INC010_T02,INC010,INC010_EV02,2026-09-10T12:33,payment_request,Payment-related screenshot captured
+INC010_T03,INC010,INC010_EV03,,transaction,Bank transaction recorded
+INC010_T04,INC010,INC010_EV04,2026-09-10T12:39,email,Transaction-related email received
+INC010_T05,INC010,INC010_EV05,2026-09-10T12:44,call,Phone call recorded
+INC011_T01,INC011,INC011_EV01,2026-09-11T11:42,message,Message/notification received
+INC011_T02,INC011,INC011_EV02,2026-09-11T11:46,payment_request,Payment-related screenshot captured
+INC011_T03,INC011,INC011_EV03,2026-09-11T11:50,transaction,Bank transaction recorded
+INC011_T04,INC011,INC011_EV04,2026-09-11T11:52,email,Transaction-related email received
+INC011_T05,INC011,INC011_EV05,2026-09-11T11:57,call,Phone call recorded
+INC012_T01,INC012,INC012_EV01,2026-09-12T11:10,message,Message/notification received
+INC012_T02,INC012,INC012_EV02,2026-09-12T11:14,payment_request,Payment-related screenshot captured
+INC012_T03,INC012,INC012_EV03,2026-09-12T11:18,transaction,Bank transaction recorded
+INC012_T04,INC012,INC012_EV04,2026-09-12T11:20,email,Transaction-related email received
+INC012_T05,INC012,INC012_EV05,2026-09-12T11:25,call,Phone call recorded
+INC013_T01,INC013,INC013_EV01,2026-09-13T11:43,message,Message/notification received
+INC013_T02,INC013,INC013_EV02,2026-09-13T11:47,payment_request,Payment-related screenshot captured
+INC013_T03,INC013,INC013_EV03,2026-09-13T11:51,transaction,Bank transaction recorded
+INC013_T04,INC013,INC013_EV04,2026-09-13T11:53,email,Transaction-related email received
+INC013_T05,INC013,INC013_EV05,2026-09-13T11:58,call,Phone call recorded
+INC014_T01,INC014,INC014_EV01,2026-09-14T13:25,message,Message/notification received
+INC014_T02,INC014,INC014_EV02,2026-09-14T13:29,payment_request,Payment-related screenshot captured
+INC014_T03,INC014,INC014_EV03,2026-09-14T13:33,transaction,Bank transaction recorded
+INC014_T04,INC014,INC014_EV04,2026-09-14T13:35,email,Transaction-related email received
+INC014_T05,INC014,INC014_EV05,2026-09-14T13:40,call,Phone call recorded
+INC015_T01,INC015,INC015_EV01,2026-09-15T13:13,message,Message/notification received
+INC015_T02,INC015,INC015_EV02,2026-09-15T13:17,payment_request,Payment-related screenshot captured
+INC015_T03,INC015,INC015_EV03,2026-09-15T13:21,transaction,Bank transaction recorded
+INC015_T04,INC015,INC015_EV04,2026-09-15T13:23,email,Transaction-related email received
+INC015_T05,INC015,INC015_EV05,2026-09-15T13:28,call,Phone call recorded
+INC016_T01,INC016,INC016_EV01,2026-09-16T12:08,message,Message/notification received
+INC016_T02,INC016,INC016_EV02,2026-09-16T12:12,payment_request,Payment-related screenshot captured
+INC016_T03,INC016,INC016_EV03,2026-09-16T12:46,transaction,Bank transaction recorded
+INC016_T04,INC016,INC016_EV04,2026-09-16T12:18,email,Transaction-related email received
+INC016_T05,INC016,INC016_EV05,2026-09-16T12:23,call,Phone call recorded
+INC017_T01,INC017,INC017_EV01,2026-09-17T14:23,message,Message/notification received
+INC017_T02,INC017,INC017_EV02,2026-09-17T14:27,payment_request,Payment-related screenshot captured
+INC017_T03,INC017,INC017_EV03,2026-09-17T14:31,transaction,Bank transaction recorded
+INC017_T04,INC017,INC017_EV04,2026-09-17T14:33,email,Transaction-related email received
+INC017_T05,INC017,INC017_EV05,2026-09-17T14:38,call,Phone call recorded
+INC018_T01,INC018,INC018_EV01,2026-09-18T08:07,message,Message/notification received
+INC018_T02,INC018,INC018_EV02,2026-09-18T08:11,payment_request,Payment-related screenshot captured
+INC018_T03,INC018,INC018_EV03,2026-09-18T08:15,transaction,Bank transaction recorded
+INC018_T04,INC018,INC018_EV04,2026-09-18T08:17,email,Transaction-related email received
+INC018_T05,INC018,INC018_EV05,2026-09-18T08:22,call,Phone call recorded
+INC019_T01,INC019,INC019_EV01,2026-09-19T14:38,message,Message/notification received
+INC019_T02,INC019,INC019_EV02,2026-09-19T14:42,payment_request,Payment-related screenshot captured
+INC019_T03,INC019,INC019_EV03,2026-09-19T14:46,transaction,Bank transaction recorded
+INC019_T04,INC019,INC019_EV04,2026-09-19T14:48,email,Transaction-related email received
+INC019_T05,INC019,INC019_EV05,2026-09-19T14:53,call,Phone call recorded
+INC020_T01,INC020,INC020_EV01,2026-09-20T16:17,message,Message/notification received
+INC020_T02,INC020,INC020_EV02,2026-09-20T16:21,payment_request,Payment-related screenshot captured
+INC020_T03,INC020,INC020_EV03,2026-09-20T16:25,transaction,Bank transaction recorded
+INC020_T04,INC020,INC020_EV04,2026-09-20T16:27,email,Transaction-related email received
+INC020_T05,INC020,INC020_EV05,2026-09-20T16:32,call,Phone call recorded
+INC021_T01,INC021,INC021_EV01,2026-09-21T10:29,message,Message/notification received
+INC021_T02,INC021,INC021_EV02,2026-09-21T10:33,payment_request,Payment-related screenshot captured
+INC021_T03,INC021,INC021_EV03,2026-09-21T10:37,transaction,Bank transaction recorded
+INC021_T04,INC021,INC021_EV04,2026-09-21T10:39,email,Transaction-related email received
+INC021_T05,INC021,INC021_EV05,2026-09-21T10:44,call,Phone call recorded
+INC022_T01,INC022,INC022_EV01,2026-09-22T09:40,message,Message/notification received
+INC022_T02,INC022,INC022_EV02,2026-09-22T09:44,payment_request,Payment-related screenshot captured
+INC022_T03,INC022,INC022_EV03,,transaction,Bank transaction recorded
+INC022_T04,INC022,INC022_EV04,2026-09-22T09:50,email,Transaction-related email received
+INC022_T05,INC022,INC022_EV05,2026-09-22T09:55,call,Phone call recorded
+INC023_T01,INC023,INC023_EV01,2026-09-23T10:34,message,Message/notification received
+INC023_T02,INC023,INC023_EV02,2026-09-23T10:38,payment_request,Payment-related screenshot captured
+INC023_T03,INC023,INC023_EV03,2026-09-23T10:42,transaction,Bank transaction recorded
+INC023_T04,INC023,INC023_EV04,2026-09-23T10:44,email,Transaction-related email received
+INC023_T05,INC023,INC023_EV05,2026-09-23T10:49,call,Phone call recorded
+INC024_T01,INC024,INC024_EV01,2026-09-24T08:07,message,Message/notification received
+INC024_T02,INC024,INC024_EV02,2026-09-24T08:11,payment_request,Payment-related screenshot captured
+INC024_T03,INC024,INC024_EV03,2026-09-24T08:15,transaction,Bank transaction recorded
+INC024_T04,INC024,INC024_EV04,2026-09-24T08:17,email,Transaction-related email received
+INC024_T05,INC024,INC024_EV05,2026-09-24T08:22,call,Phone call recorded
+INC025_T01,INC025,INC025_EV01,2026-09-25T11:36,message,Message/notification received
+INC025_T02,INC025,INC025_EV02,2026-09-25T11:40,payment_request,Payment-related screenshot captured
+INC025_T03,INC025,INC025_EV03,2026-09-25T11:44,transaction,Bank transaction recorded
+INC025_T04,INC025,INC025_EV04,2026-09-25T11:46,email,Transaction-related email received
+INC025_T05,INC025,INC025_EV05,2026-09-25T11:51,call,Phone call recorded
+INC026_T01,INC026,INC026_EV01,2026-09-26T16:08,message,Message/notification received
+INC026_T02,INC026,INC026_EV02,2026-09-26T16:12,payment_request,Payment-related screenshot captured
+INC026_T03,INC026,INC026_EV03,2026-09-26T16:16,transaction,Bank transaction recorded
+INC026_T04,INC026,INC026_EV04,2026-09-26T16:18,email,Transaction-related email received
+INC026_T05,INC026,INC026_EV05,2026-09-26T16:23,call,Phone call recorded
+INC027_T01,INC027,INC027_EV01,2026-09-27T16:38,message,Message/notification received
+INC027_T02,INC027,INC027_EV02,2026-09-27T16:42,payment_request,Payment-related screenshot captured
+INC027_T03,INC027,INC027_EV03,2026-09-27T17:16,transaction,Bank transaction recorded
+INC027_T04,INC027,INC027_EV04,2026-09-27T16:48,email,Transaction-related email received
+INC027_T05,INC027,INC027_EV05,2026-09-27T16:53,call,Phone call recorded
+INC028_T01,INC028,INC028_EV01,2026-09-28T14:42,message,Message/notification received
+INC028_T02,INC028,INC028_EV02,2026-09-28T14:46,payment_request,Payment-related screenshot captured
+INC028_T03,INC028,INC028_EV03,2026-09-28T14:50,transaction,Bank transaction recorded
+INC028_T04,INC028,INC028_EV04,2026-09-28T14:52,email,Transaction-related email received
+INC028_T05,INC028,INC028_EV05,2026-09-28T14:57,call,Phone call recorded
+INC029_T01,INC029,INC029_EV01,2026-09-29T11:14,message,Message/notification received
+INC029_T02,INC029,INC029_EV02,2026-09-29T11:18,payment_request,Payment-related screenshot captured
+INC029_T03,INC029,INC029_EV03,2026-09-29T11:22,transaction,Bank transaction recorded
+INC029_T04,INC029,INC029_EV04,2026-09-29T11:24,email,Transaction-related email received
+INC029_T05,INC029,INC029_EV05,2026-09-29T11:29,call,Phone call recorded
+INC030_T01,INC030,INC030_EV01,2026-09-30T11:00,message,Message/notification received
+INC030_T02,INC030,INC030_EV02,2026-09-30T11:04,payment_request,Payment-related screenshot captured
+INC030_T03,INC030,INC030_EV03,2026-09-30T11:08,transaction,Bank transaction recorded
+INC030_T04,INC030,INC030_EV04,2026-09-30T11:10,email,Transaction-related email received
+INC030_T05,INC030,INC030_EV05,2026-09-30T11:15,call,Phone call recorded
+INC031_T01,INC031,INC031_EV01,2026-10-01T08:21,message,Message/notification received
+INC031_T02,INC031,INC031_EV02,2026-10-01T08:25,payment_request,Payment-related screenshot captured
+INC031_T03,INC031,INC031_EV03,2026-10-01T08:29,transaction,Bank transaction recorded
+INC031_T04,INC031,INC031_EV04,2026-10-01T08:31,email,Transaction-related email received
+INC031_T05,INC031,INC031_EV05,2026-10-01T08:36,call,Phone call recorded
+INC032_T01,INC032,INC032_EV01,2026-10-02T15:13,message,Message/notification received
+INC032_T02,INC032,INC032_EV02,2026-10-02T15:17,payment_request,Payment-related screenshot captured
+INC032_T03,INC032,INC032_EV03,2026-10-02T15:21,transaction,Bank transaction recorded
+INC032_T04,INC032,INC032_EV04,2026-10-02T15:23,email,Transaction-related email received
+INC032_T05,INC032,INC032_EV05,2026-10-02T15:28,call,Phone call recorded
+INC033_T01,INC033,INC033_EV01,2026-10-03T15:26,message,Message/notification received
+INC033_T02,INC033,INC033_EV02,2026-10-03T15:30,payment_request,Payment-related screenshot captured
+INC033_T03,INC033,INC033_EV03,2026-10-03T15:34,transaction,Bank transaction recorded
+INC033_T04,INC033,INC033_EV04,2026-10-03T15:36,email,Transaction-related email received
+INC033_T05,INC033,INC033_EV05,2026-10-03T15:41,call,Phone call recorded
+INC034_T01,INC034,INC034_EV01,2026-10-04T13:27,message,Message/notification received
+INC034_T02,INC034,INC034_EV02,2026-10-04T13:31,payment_request,Payment-related screenshot captured
+INC034_T03,INC034,INC034_EV03,2026-10-04T13:35,transaction,Bank transaction recorded
+INC034_T04,INC034,INC034_EV04,2026-10-04T13:37,email,Transaction-related email received
+INC034_T05,INC034,INC034_EV05,2026-10-04T13:42,call,Phone call recorded
+INC035_T01,INC035,INC035_EV01,2026-10-05T08:25,message,Message/notification received
+INC035_T02,INC035,INC035_EV02,2026-10-05T08:29,payment_request,Payment-related screenshot captured
+INC035_T03,INC035,INC035_EV03,,transaction,Bank transaction recorded
+INC035_T04,INC035,INC035_EV04,2026-10-05T08:35,email,Transaction-related email received
+INC035_T05,INC035,INC035_EV05,2026-10-05T08:40,call,Phone call recorded
+INC036_T01,INC036,INC036_EV01,2026-10-06T11:34,message,Message/notification received
+INC036_T02,INC036,INC036_EV02,2026-10-06T11:38,payment_request,Payment-related screenshot captured
+INC036_T03,INC036,INC036_EV03,2026-10-06T11:42,transaction,Bank transaction recorded
+INC036_T04,INC036,INC036_EV04,2026-10-06T11:44,email,Transaction-related email received
+INC036_T05,INC036,INC036_EV05,2026-10-06T11:49,call,Phone call recorded
+INC037_T01,INC037,INC037_EV01,2026-10-07T12:29,message,Message/notification received
+INC037_T02,INC037,INC037_EV02,2026-10-07T12:33,payment_request,Payment-related screenshot captured
+INC037_T03,INC037,INC037_EV03,2026-10-07T12:37,transaction,Bank transaction recorded
+INC037_T04,INC037,INC037_EV04,2026-10-07T12:39,email,Transaction-related email received
+INC037_T05,INC037,INC037_EV05,2026-10-07T12:44,call,Phone call recorded
+INC038_T01,INC038,INC038_EV01,2026-10-08T09:03,message,Message/notification received
+INC038_T02,INC038,INC038_EV02,2026-10-08T09:07,payment_request,Payment-related screenshot captured
+INC038_T03,INC038,INC038_EV03,2026-10-08T09:11,transaction,Bank transaction recorded
+INC038_T04,INC038,INC038_EV04,2026-10-08T09:13,email,Transaction-related email received
+INC038_T05,INC038,INC038_EV05,2026-10-08T09:18,call,Phone call recorded
+INC039_T01,INC039,INC039_EV01,2026-10-09T10:26,message,Message/notification received
+INC039_T02,INC039,INC039_EV02,2026-10-09T10:30,payment_request,Payment-related screenshot captured
+INC039_T03,INC039,INC039_EV03,2026-10-09T10:34,transaction,Bank transaction recorded
+INC039_T04,INC039,INC039_EV04,2026-10-09T10:36,email,Transaction-related email received
+INC039_T05,INC039,INC039_EV05,2026-10-09T10:41,call,Phone call recorded
+INC040_T01,INC040,INC040_EV01,2026-10-10T08:10,message,Message/notification received
+INC040_T02,INC040,INC040_EV02,2026-10-10T08:14,payment_request,Payment-related screenshot captured
+INC040_T03,INC040,INC040_EV03,2026-10-10T08:18,transaction,Bank transaction recorded
+INC040_T04,INC040,INC040_EV04,2026-10-10T08:20,email,Transaction-related email received
+INC040_T05,INC040,INC040_EV05,2026-10-10T08:25,call,Phone call recorded
+INC041_T01,INC041,INC041_EV01,2026-10-11T15:18,message,Message/notification received
+INC041_T02,INC041,INC041_EV02,2026-10-11T15:22,payment_request,Payment-related screenshot captured
+INC041_T03,INC041,INC041_EV03,2026-10-11T15:26,transaction,Bank transaction recorded
+INC041_T04,INC041,INC041_EV04,2026-10-11T15:28,email,Transaction-related email received
+INC041_T05,INC041,INC041_EV05,2026-10-11T15:33,call,Phone call recorded
+INC042_T01,INC042,INC042_EV01,2026-10-12T11:18,message,Message/notification received
+INC042_T02,INC042,INC042_EV02,2026-10-12T11:22,payment_request,Payment-related screenshot captured
+INC042_T03,INC042,INC042_EV03,2026-10-12T11:26,transaction,Bank transaction recorded
+INC042_T04,INC042,INC042_EV04,2026-10-12T11:28,email,Transaction-related email received
+INC042_T05,INC042,INC042_EV05,2026-10-12T11:33,call,Phone call recorded
+INC043_T01,INC043,INC043_EV01,2026-10-13T08:03,message,Message/notification received
+INC043_T02,INC043,INC043_EV02,2026-10-13T08:07,payment_request,Payment-related screenshot captured
+INC043_T03,INC043,INC043_EV03,2026-10-13T08:11,transaction,Bank transaction recorded
+INC043_T04,INC043,INC043_EV04,2026-10-13T08:13,email,Transaction-related email received
+INC043_T05,INC043,INC043_EV05,2026-10-13T08:18,call,Phone call recorded
+INC044_T01,INC044,INC044_EV01,2026-10-14T16:05,message,Message/notification received
+INC044_T02,INC044,INC044_EV02,2026-10-14T16:09,payment_request,Payment-related screenshot captured
+INC044_T03,INC044,INC044_EV03,2026-10-14T16:13,transaction,Bank transaction recorded
+INC044_T04,INC044,INC044_EV04,2026-10-14T16:15,email,Transaction-related email received
+INC044_T05,INC044,INC044_EV05,2026-10-14T16:20,call,Phone call recorded
+INC045_T01,INC045,INC045_EV01,2026-10-15T14:07,message,Message/notification received
+INC045_T02,INC045,INC045_EV02,2026-10-15T14:11,payment_request,Payment-related screenshot captured
+INC045_T03,INC045,INC045_EV03,2026-10-15T14:15,transaction,Bank transaction recorded
+INC045_T04,INC045,INC045_EV04,2026-10-15T14:17,email,Transaction-related email received
+INC045_T05,INC045,INC045_EV05,2026-10-15T14:22,call,Phone call recorded
+INC046_T01,INC046,INC046_EV01,2026-10-16T09:26,message,Message/notification received
+INC046_T02,INC046,INC046_EV02,2026-10-16T09:30,payment_request,Payment-related screenshot captured
+INC046_T03,INC046,INC046_EV03,2026-10-16T09:34,transaction,Bank transaction recorded
+INC046_T04,INC046,INC046_EV04,2026-10-16T09:36,email,Transaction-related email received
+INC046_T05,INC046,INC046_EV05,2026-10-16T09:41,call,Phone call recorded
+INC047_T01,INC047,INC047_EV01,2026-10-17T13:15,message,Message/notification received
+INC047_T02,INC047,INC047_EV02,2026-10-17T13:19,payment_request,Payment-related screenshot captured
+INC047_T03,INC047,INC047_EV03,2026-10-17T13:23,transaction,Bank transaction recorded
+INC047_T04,INC047,INC047_EV04,2026-10-17T13:25,email,Transaction-related email received
+INC047_T05,INC047,INC047_EV05,2026-10-17T13:30,call,Phone call recorded
+INC048_T01,INC048,INC048_EV01,2026-10-18T15:20,message,Message/notification received
+INC048_T02,INC048,INC048_EV02,2026-10-18T15:24,payment_request,Payment-related screenshot captured
+INC048_T03,INC048,INC048_EV03,2026-10-18T15:28,transaction,Bank transaction recorded
+INC048_T04,INC048,INC048_EV04,2026-10-18T15:30,email,Transaction-related email received
+INC048_T05,INC048,INC048_EV05,2026-10-18T15:35,call,Phone call recorded
+INC049_T01,INC049,INC049_EV01,2026-10-19T17:06,message,Message/notification received
+INC049_T02,INC049,INC049_EV02,2026-10-19T17:10,payment_request,Payment-related screenshot captured
+INC049_T03,INC049,INC049_EV03,2026-10-19T17:14,transaction,Bank transaction recorded
+INC049_T04,INC049,INC049_EV04,2026-10-19T17:16,email,Transaction-related email received
+INC049_T05,INC049,INC049_EV05,2026-10-19T17:21,call,Phone call recorded
+INC050_T01,INC050,INC050_EV01,2026-10-20T12:08,message,Message/notification received
+INC050_T02,INC050,INC050_EV02,2026-10-20T12:12,payment_request,Payment-related screenshot captured
+INC050_T03,INC050,INC050_EV03,2026-10-20T12:16,transaction,Bank transaction recorded
+INC050_T04,INC050,INC050_EV04,2026-10-20T12:18,email,Transaction-related email received
+INC050_T05,INC050,INC050_EV05,2026-10-20T12:23,call,Phone call recorded

@@ -1,0 +1,155 @@
+match_id,incident_id,evidence_a,evidence_b,match_type,confidence,reasons
+INC001_M01,INC001,INC001_EV01,INC001_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC001_M02,INC001,INC001_EV02,INC001_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC001_M03,INC001,INC001_EV03,INC001_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC002_M01,INC002,INC002_EV01,INC002_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC002_M02,INC002,INC002_EV02,INC002_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC002_M03,INC002,INC002_EV03,INC002_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC003_M01,INC003,INC003_EV01,INC003_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC003_M02,INC003,INC003_EV02,INC003_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC003_M03,INC003,INC003_EV03,INC003_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC004_M01,INC004,INC004_EV01,INC004_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC004_M02,INC004,INC004_EV02,INC004_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC004_M03,INC004,INC004_EV03,INC004_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+M005D,INC005,INC005_EV03,INC005_EV06,possible_duplicate,1.0,"Same transaction ID, UTR, amount and date"
+INC005_M01,INC005,INC005_EV01,INC005_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC005_M02,INC005,INC005_EV02,INC005_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC005_M03,INC005,INC005_EV03,INC005_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC006_M01,INC006,INC006_EV01,INC006_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC006_M02,INC006,INC006_EV02,INC006_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC006_M03,INC006,INC006_EV03,INC006_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC007_M01,INC007,INC007_EV01,INC007_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC007_M02,INC007,INC007_EV02,INC007_EV03,possible_transaction_match,0.55,Same transaction reference and close timestamp; amount may differ
+INC007_M03,INC007,INC007_EV03,INC007_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC008_M01,INC008,INC008_EV01,INC008_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC008_M02,INC008,INC008_EV02,INC008_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC008_M03,INC008,INC008_EV03,INC008_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC009_M01,INC009,INC009_EV01,INC009_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC009_M02,INC009,INC009_EV02,INC009_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC009_M03,INC009,INC009_EV03,INC009_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC010_M01,INC010,INC010_EV01,INC010_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC010_M02,INC010,INC010_EV02,INC010_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC010_M03,INC010,INC010_EV03,INC010_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC011_M01,INC011,INC011_EV01,INC011_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC011_M02,INC011,INC011_EV02,INC011_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC011_M03,INC011,INC011_EV03,INC011_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+M012D,INC012,INC012_EV03,INC012_EV06,possible_duplicate,1.0,"Same transaction ID, UTR, amount and date"
+INC012_M01,INC012,INC012_EV01,INC012_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC012_M02,INC012,INC012_EV02,INC012_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC012_M03,INC012,INC012_EV03,INC012_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC013_M01,INC013,INC013_EV01,INC013_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC013_M02,INC013,INC013_EV02,INC013_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC013_M03,INC013,INC013_EV03,INC013_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC014_M01,INC014,INC014_EV01,INC014_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC014_M02,INC014,INC014_EV02,INC014_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC014_M03,INC014,INC014_EV03,INC014_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC015_M01,INC015,INC015_EV01,INC015_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC015_M02,INC015,INC015_EV02,INC015_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC015_M03,INC015,INC015_EV03,INC015_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC016_M01,INC016,INC016_EV01,INC016_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC016_M02,INC016,INC016_EV02,INC016_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC016_M03,INC016,INC016_EV03,INC016_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC017_M01,INC017,INC017_EV01,INC017_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC017_M02,INC017,INC017_EV02,INC017_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC017_M03,INC017,INC017_EV03,INC017_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC018_M01,INC018,INC018_EV01,INC018_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC018_M02,INC018,INC018_EV02,INC018_EV03,possible_transaction_match,0.55,Same transaction reference and close timestamp; amount may differ
+INC018_M03,INC018,INC018_EV03,INC018_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC019_M01,INC019,INC019_EV01,INC019_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC019_M02,INC019,INC019_EV02,INC019_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC019_M03,INC019,INC019_EV03,INC019_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC020_M01,INC020,INC020_EV01,INC020_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC020_M02,INC020,INC020_EV02,INC020_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC020_M03,INC020,INC020_EV03,INC020_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC021_M01,INC021,INC021_EV01,INC021_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC021_M02,INC021,INC021_EV02,INC021_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC021_M03,INC021,INC021_EV03,INC021_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC022_M01,INC022,INC022_EV01,INC022_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC022_M02,INC022,INC022_EV02,INC022_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC022_M03,INC022,INC022_EV03,INC022_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC023_M01,INC023,INC023_EV01,INC023_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC023_M02,INC023,INC023_EV02,INC023_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC023_M03,INC023,INC023_EV03,INC023_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+M024D,INC024,INC024_EV03,INC024_EV06,possible_duplicate,1.0,"Same transaction ID, UTR, amount and date"
+INC024_M01,INC024,INC024_EV01,INC024_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC024_M02,INC024,INC024_EV02,INC024_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC024_M03,INC024,INC024_EV03,INC024_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC025_M01,INC025,INC025_EV01,INC025_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC025_M02,INC025,INC025_EV02,INC025_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC025_M03,INC025,INC025_EV03,INC025_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC026_M01,INC026,INC026_EV01,INC026_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC026_M02,INC026,INC026_EV02,INC026_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC026_M03,INC026,INC026_EV03,INC026_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC027_M01,INC027,INC027_EV01,INC027_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC027_M02,INC027,INC027_EV02,INC027_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC027_M03,INC027,INC027_EV03,INC027_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC028_M01,INC028,INC028_EV01,INC028_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC028_M02,INC028,INC028_EV02,INC028_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC028_M03,INC028,INC028_EV03,INC028_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC029_M01,INC029,INC029_EV01,INC029_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC029_M02,INC029,INC029_EV02,INC029_EV03,possible_transaction_match,0.55,Same transaction reference and close timestamp; amount may differ
+INC029_M03,INC029,INC029_EV03,INC029_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC030_M01,INC030,INC030_EV01,INC030_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC030_M02,INC030,INC030_EV02,INC030_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC030_M03,INC030,INC030_EV03,INC030_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC031_M01,INC031,INC031_EV01,INC031_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC031_M02,INC031,INC031_EV02,INC031_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC031_M03,INC031,INC031_EV03,INC031_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC032_M01,INC032,INC032_EV01,INC032_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC032_M02,INC032,INC032_EV02,INC032_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC032_M03,INC032,INC032_EV03,INC032_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+M033D,INC033,INC033_EV03,INC033_EV06,possible_duplicate,1.0,"Same transaction ID, UTR, amount and date"
+INC033_M01,INC033,INC033_EV01,INC033_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC033_M02,INC033,INC033_EV02,INC033_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC033_M03,INC033,INC033_EV03,INC033_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC034_M01,INC034,INC034_EV01,INC034_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC034_M02,INC034,INC034_EV02,INC034_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC034_M03,INC034,INC034_EV03,INC034_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC035_M01,INC035,INC035_EV01,INC035_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC035_M02,INC035,INC035_EV02,INC035_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC035_M03,INC035,INC035_EV03,INC035_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC036_M01,INC036,INC036_EV01,INC036_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC036_M02,INC036,INC036_EV02,INC036_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC036_M03,INC036,INC036_EV03,INC036_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC037_M01,INC037,INC037_EV01,INC037_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC037_M02,INC037,INC037_EV02,INC037_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC037_M03,INC037,INC037_EV03,INC037_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC038_M01,INC038,INC038_EV01,INC038_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC038_M02,INC038,INC038_EV02,INC038_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC038_M03,INC038,INC038_EV03,INC038_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC039_M01,INC039,INC039_EV01,INC039_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC039_M02,INC039,INC039_EV02,INC039_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC039_M03,INC039,INC039_EV03,INC039_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC040_M01,INC040,INC040_EV01,INC040_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC040_M02,INC040,INC040_EV02,INC040_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC040_M03,INC040,INC040_EV03,INC040_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC041_M01,INC041,INC041_EV01,INC041_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC041_M02,INC041,INC041_EV02,INC041_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC041_M03,INC041,INC041_EV03,INC041_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC042_M01,INC042,INC042_EV01,INC042_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC042_M02,INC042,INC042_EV02,INC042_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC042_M03,INC042,INC042_EV03,INC042_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC043_M01,INC043,INC043_EV01,INC043_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC043_M02,INC043,INC043_EV02,INC043_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC043_M03,INC043,INC043_EV03,INC043_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC044_M01,INC044,INC044_EV01,INC044_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC044_M02,INC044,INC044_EV02,INC044_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC044_M03,INC044,INC044_EV03,INC044_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC045_M01,INC045,INC045_EV01,INC045_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC045_M02,INC045,INC045_EV02,INC045_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC045_M03,INC045,INC045_EV03,INC045_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC046_M01,INC046,INC046_EV01,INC046_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC046_M02,INC046,INC046_EV02,INC046_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC046_M03,INC046,INC046_EV03,INC046_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC047_M01,INC047,INC047_EV01,INC047_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC047_M02,INC047,INC047_EV02,INC047_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC047_M03,INC047,INC047_EV03,INC047_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC048_M01,INC048,INC048_EV01,INC048_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC048_M02,INC048,INC048_EV02,INC048_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC048_M03,INC048,INC048_EV03,INC048_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC049_M01,INC049,INC049_EV01,INC049_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC049_M02,INC049,INC049_EV02,INC049_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC049_M03,INC049,INC049_EV03,INC049_EV04,transaction_reference_match,0.98,Same transaction ID and UTR
+INC050_M01,INC050,INC050_EV01,INC050_EV02,related_payment_request,0.92,"Same phone, amount and URL"
+INC050_M02,INC050,INC050_EV02,INC050_EV03,possible_transaction_match,0.95,Same transaction ID and matching amount
+INC050_M03,INC050,INC050_EV03,INC050_EV04,transaction_reference_match,0.98,Same transaction ID and UTR

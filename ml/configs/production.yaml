@@ -1,0 +1,33 @@
+# FraudTrace AI ML Configuration - Production
+seed: 42
+
+data:
+  version: "production-v1"
+  data_dir: "ml/data"
+  sample_dir: "ml/data/sample"
+  processed_dir: "ml/data/processed"
+
+model:
+  type: "hybrid_gradient_boost"
+  n_estimators: 150
+  max_depth: 5
+  random_state: 42
+
+thresholds:
+  entity_match: 0.85
+  contradiction: 0.75
+  timestamp_drift_minutes: 4.0
+  amount_tolerance_ratio: 0.005
+
+confidence:
+  one_source: "LOW"
+  two_agreeing: "MEDIUM"
+  three_agreeing: "HIGH"
+  four_plus_agreeing: "VERY HIGH"
+  conflict: "CONFLICTING"
+  unsupported_threshold: 0.30
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false

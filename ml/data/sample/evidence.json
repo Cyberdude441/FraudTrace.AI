@@ -1,0 +1,260 @@
+[
+  {
+    "evidenceId": "EVIDENCE-001",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Chat",
+    "filename": "synthetic_messaging_export_001.txt",
+    "timestamp": "2026-09-26T10:30:12+05:30",
+    "sourceDescription": "Synthetic Messaging Export",
+    "content": "10:30:12 AM — Your account verification is pending. Please complete the verification payment of ₹50,000 using the payment link below.\n10:30:20 AM — https://verification-demo.test/pay\n10:42:18 AM — Payment of ₹50,000 has been sent.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-001",
+        "type": "Person",
+        "value": "SYNTHETIC-USER-001"
+      },
+      {
+        "entityId": "ENTITY-002",
+        "type": "Phone",
+        "value": "+91 90000 11111"
+      },
+      {
+        "entityId": "ENTITY-003",
+        "type": "URL",
+        "value": "https://verification-demo.test/pay"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-001",
+      "EVENT-002",
+      "EVENT-004"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-002",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Screenshot",
+    "filename": "payment_screenshot_demo.png",
+    "timestamp": null,
+    "sourceDescription": "Payment Screenshot",
+    "content": "Visible text: Verification payment required: ₹50,000. Timestamp is not available in the screenshot metadata.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-001",
+        "type": "Person",
+        "value": "SYNTHETIC-USER-001"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-001",
+      "EVENT-007"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-003",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Bank Record",
+    "filename": "synthetic_bank_statement_001.txt",
+    "timestamp": "2026-09-26T10:43:02+05:30",
+    "sourceDescription": "Synthetic Bank Statement",
+    "content": "10:43:02 AM — Amount: ₹48,000 — Transaction ID: TXN-DEMO-48291.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-001",
+        "type": "Person",
+        "value": "SYNTHETIC-USER-001"
+      },
+      {
+        "entityId": "ENTITY-004",
+        "type": "Transaction",
+        "value": "TXN-DEMO-48291"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-004",
+      "EVENT-006"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-004",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "SMS",
+    "filename": "synthetic_transaction_sms_001.txt",
+    "timestamp": "2026-09-26T10:43:08+05:30",
+    "sourceDescription": "Synthetic Transaction Notification",
+    "content": "10:43:08 AM — Transaction of INR 48,000 completed. Reference: TXN-DEMO-48291.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-004",
+        "type": "Transaction",
+        "value": "TXN-DEMO-48291"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-004",
+      "EVENT-006"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-005",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Call Log",
+    "filename": "synthetic_call_history_001.txt",
+    "timestamp": "2026-09-26T10:45:00+05:30",
+    "sourceDescription": "Synthetic Call History",
+    "content": "10:45:00 AM — Call duration: 04:32. Caller: Available as synthetic communication endpoint. Recipient: MISSING.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-002",
+        "type": "Phone",
+        "value": "+91 90000 11111"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-005"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-006",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Email",
+    "filename": "synthetic_email_001.eml",
+    "timestamp": "2026-09-26T10:31:04+05:30",
+    "sourceDescription": "Synthetic Email",
+    "content": "10:31:04 AM — Please complete the verification payment of INR 50,000. Payment page: https://verification-demo.test/pay.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-003",
+        "type": "URL",
+        "value": "https://verification-demo.test/pay"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-001",
+      "EVENT-002"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-007",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Browser History",
+    "filename": "synthetic_browser_export_001.txt",
+    "timestamp": "2026-09-26T10:35:11+05:30",
+    "sourceDescription": "Synthetic Browser Export",
+    "content": "10:35:11 AM — Visited https://verification-demo.test/pay.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-003",
+        "type": "URL",
+        "value": "https://verification-demo.test/pay"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-002",
+      "EVENT-003"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-008",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Chat",
+    "filename": "synthetic_second_chat_export_001.txt",
+    "timestamp": "2026-09-26T10:30:13+05:30",
+    "sourceDescription": "Second Chat Export",
+    "content": "10:30:13 AM — Your verification payment is ₹50,000.\n10:41:20 AM — Just spoke with you on the phone.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-002",
+        "type": "Phone",
+        "value": "9000011111"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-001",
+      "EVENT-005"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-009",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Screenshot",
+    "filename": "conversation_screenshot_demo.png",
+    "timestamp": "2026-09-26T10:30:00+05:30",
+    "sourceDescription": "Conversation Screenshot",
+    "content": "Screenshot shows: Verification payment required: ₹50,000; URL: https://verification-demo.test/pay; phone: +91 90000 11111.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-002",
+        "type": "Phone",
+        "value": "+91 90000 11111"
+      },
+      {
+        "entityId": "ENTITY-003",
+        "type": "URL",
+        "value": "https://verification-demo.test/pay"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-001",
+      "EVENT-002"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-010",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Transaction Receipt",
+    "filename": "synthetic_payment_receipt_001.txt",
+    "timestamp": "2026-09-26T10:42:00+05:30",
+    "sourceDescription": "Synthetic Payment Receipt",
+    "content": "10:42 AM — Amount: ₹50,000. Transaction ID: TXN-DEMO-50000. Receipt ID: RECEIPT-DEMO-50000. Timestamp field in source record is incomplete.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-005",
+        "type": "Transaction",
+        "value": "TXN-DEMO-50000"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-004",
+      "EVENT-007"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-011",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Device Metadata",
+    "filename": "synthetic_device_event_001.json",
+    "timestamp": "2026-09-26T10:35:11+05:30",
+    "sourceDescription": "Synthetic Device Event",
+    "content": "Synthetic device event associated with the browser access window. Device identifier: DEVICE-DEMO-001. No independent payment confirmation is asserted.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-006",
+        "type": "Device",
+        "value": "DEVICE-DEMO-001"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-003"
+    ]
+  },
+  {
+    "evidenceId": "EVIDENCE-012",
+    "caseId": "CASE-DEMO-001",
+    "evidenceType": "Analyst Note",
+    "filename": "synthetic_analyst_note_001.txt",
+    "timestamp": "2026-09-26T11:00:00+05:30",
+    "sourceDescription": "Synthetic analyst observation",
+    "content": "User states the call occurred around 10:45 AM. This is an approximate recollection and should not be treated as definitive timing.",
+    "extractedEntities": [
+      {
+        "entityId": "ENTITY-001",
+        "type": "Person",
+        "value": "SYNTHETIC-USER-001"
+      }
+    ],
+    "extractedEvents": [
+      "EVENT-005"
+    ]
+  }
+]

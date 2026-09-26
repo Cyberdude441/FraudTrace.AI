@@ -1,0 +1,242 @@
+[
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-001"
+  },
+  {
+    "from": "EVIDENCE-006",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-001"
+  },
+  {
+    "from": "EVIDENCE-009",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-001"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-002"
+  },
+  {
+    "from": "EVIDENCE-006",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-002"
+  },
+  {
+    "from": "EVIDENCE-007",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-003"
+  },
+  {
+    "from": "EVIDENCE-011",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-003"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-004"
+  },
+  {
+    "from": "EVIDENCE-003",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-004"
+  },
+  {
+    "from": "EVIDENCE-004",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-004"
+  },
+  {
+    "from": "EVIDENCE-010",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-004"
+  },
+  {
+    "from": "EVIDENCE-005",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-005"
+  },
+  {
+    "from": "EVIDENCE-008",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-005"
+  },
+  {
+    "from": "EVIDENCE-012",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-005"
+  },
+  {
+    "from": "EVIDENCE-003",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-006"
+  },
+  {
+    "from": "EVIDENCE-004",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-006"
+  },
+  {
+    "from": "EVIDENCE-002",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-007"
+  },
+  {
+    "from": "EVIDENCE-010",
+    "relationship": "DESCRIBES",
+    "to": "EVENT-007"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-003"
+  },
+  {
+    "from": "EVIDENCE-006",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-003"
+  },
+  {
+    "from": "EVIDENCE-007",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-003"
+  },
+  {
+    "from": "EVIDENCE-009",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-003"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-002"
+  },
+  {
+    "from": "EVIDENCE-008",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-002"
+  },
+  {
+    "from": "EVIDENCE-009",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-002"
+  },
+  {
+    "from": "EVIDENCE-003",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-004"
+  },
+  {
+    "from": "EVIDENCE-004",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-004"
+  },
+  {
+    "from": "EVIDENCE-010",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-005"
+  },
+  {
+    "from": "EVIDENCE-010",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-007"
+  },
+  {
+    "from": "EVIDENCE-011",
+    "relationship": "CONTAINS",
+    "to": "ENTITY-006"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "CORROBORATES",
+    "to": "EVENT-001"
+  },
+  {
+    "from": "EVIDENCE-006",
+    "relationship": "CORROBORATES",
+    "to": "EVENT-001"
+  },
+  {
+    "from": "EVIDENCE-009",
+    "relationship": "CORROBORATES",
+    "to": "EVENT-001"
+  },
+  {
+    "from": "EVIDENCE-003",
+    "relationship": "CORROBORATES",
+    "to": "EVENT-006"
+  },
+  {
+    "from": "EVIDENCE-004",
+    "relationship": "CORROBORATES",
+    "to": "EVENT-006"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "CONTRADICTS",
+    "to": "EVIDENCE-003"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "CONTRADICTS",
+    "to": "EVIDENCE-004"
+  },
+  {
+    "from": "EVIDENCE-010",
+    "relationship": "CONTRADICTS",
+    "to": "EVIDENCE-003"
+  },
+  {
+    "from": "EVIDENCE-010",
+    "relationship": "CONTRADICTS",
+    "to": "EVIDENCE-004"
+  },
+  {
+    "from": "EVIDENCE-003",
+    "relationship": "CONTRADICTS",
+    "to": "EVIDENCE-010"
+  },
+  {
+    "from": "EVIDENCE-004",
+    "relationship": "CONTRADICTS",
+    "to": "EVIDENCE-010"
+  },
+  {
+    "from": "EVIDENCE-001",
+    "relationship": "DUPLICATES",
+    "to": "EVIDENCE-008"
+  },
+  {
+    "from": "EVENT-001",
+    "relationship": "PRECEDES",
+    "to": "EVENT-002"
+  },
+  {
+    "from": "EVENT-002",
+    "relationship": "PRECEDES",
+    "to": "EVENT-003"
+  },
+  {
+    "from": "EVENT-003",
+    "relationship": "PRECEDES",
+    "to": "EVENT-004"
+  },
+  {
+    "from": "EVENT-004",
+    "relationship": "PRECEDES",
+    "to": "EVENT-005"
+  },
+  {
+    "from": "EVENT-004",
+    "relationship": "PRECEDES",
+    "to": "EVENT-006"
+  },
+  {
+    "from": "EVENT-006",
+    "relationship": "PRECEDES",
+    "to": "EVENT-007"
+  }
+]
